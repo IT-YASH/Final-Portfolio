@@ -50,15 +50,16 @@ body {
 
 
 .firstsection {
+  padding: 40px 0px;
   display: flex;
   justify-content: space-around;
-  margin: 1% -5% 3%; 
   align-items: center;
 }
 
 .leftsection {
   font-size: 2rem;
   text-align: center; 
+  margin-right: 160px;
 }
 
 
@@ -96,7 +97,7 @@ body {
 
 .centered-text {
   text-align: center;
-  padding: 35pxpx 0;
+  padding-top: 35px;
   font-size: 2rem;
 }
 
@@ -105,16 +106,16 @@ body {
 }
 
 .secondsection {
+  padding: 65px 0px;
   display: flex;
   justify-content: space-around;
-  margin: 2% -5% 3%; 
   align-items: center;
 }
 
 .secondleftsection {
+  margin: 0px 86px;
   font-size: 1.1rem;
-  width: 40%;
-  margin: 0px 117px;
+  width: 55%;
 }
 
 .secondrightsection{
@@ -136,47 +137,36 @@ body {
 
 .thirdsection {
   text-align: center;
+  padding-top: 30px;
 }
 
-.container {
+.images{
+  justify-content: space-evenly;
   display: flex;
-  justify-content: space-between; 
-  margin: 2% auto; 
-  width: 80%; 
+  padding-top: 50px;
 }
-
-.box {
-  width: 23%; 
-  transition: box-shadow 0.3s ease; 
-  border-radius: 10px;
-  border: 1px solid transparent; 
-  box-shadow: 0 2px 2px rgb(168, 85, 247);
-}
-
-
-.box:hover {
-  border: 2px solid #a855f7;
-  box-shadow: 2px 4px 4px rgb(168, 85, 247);
-}
-
 
 .html-logo,
 .css-logo,
 .js-logo,
 .react-logo {
   width: 100%; 
-  max-width: 150px; 
 }
 
-hr{
-  width: 100%;
-  height: 1px;
-  background-color: #a855f7;
+.footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid white; /* Adding top border */
 }
 
-
+.footer h3 {
+  margin-bottom: 10px;
+}
 
 .footercentered-text {
+  padding-top: 30px;
+  margin-top: 20px;
+  border-top: 3px solid #a855f7; /* Updated top border */
   text-align: center; 
 }
 
