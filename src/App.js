@@ -9,7 +9,6 @@ import "./App.css";
 function App() {
   return (
     <>
-      {/* Header */}
       <header>
         <nav>
           <div className="left">Yash's Portfolio</div>
@@ -35,7 +34,6 @@ function App() {
         </nav>
       </header>
 
-      {/* Section */}
       <section className="firstsection">
         <div className="leftsection">
           <h2 className="lefthello">Hello,</h2>
@@ -48,30 +46,38 @@ function App() {
           <img src={images} alt="firstsection images" />
         </div>
       </section>
+
       <h1 className="centered-text">
         LET ME <span className="introcolor">INTRODUCE MYSELF</span>
       </h1>
+
       <section className="secondsection">
         <div className="secondleftsection">
           <p>
-             Hi there! I'm Yash Patel, a third-year IT student with a passion
-            for <span className="paragraph">full-stack development, UI/UX design, and data analysis.</span> I love
-            creating seamless experiences from front-end to back-end, focusing
-            on both functionality and aesthetics. With a knack for design and a
-            keen eye for data insights, I enjoy crafting user-centric solutions
-            that drive engagement and deliver measurable results. Always eager
-            to learn and adapt, I'm excited about the endless possibilities in
-            the dynamic field of IT.
+            Hi there! I'm Yash Patel, a third-year IT student with a passion for{" "}
+            <span className="paragraph">
+              full-stack development, UI/UX design, and data analysis.
+            </span>{" "}
+            I love creating seamless experiences from front-end to back-end,
+            focusing on both functionality and aesthetics. With a knack for
+            design and a keen eye for data insights, I enjoy crafting
+            user-centric solutions that drive engagement and deliver measurable
+            results. Always eager to learn and adapt, I'm excited about the
+            endless possibilities in the dynamic field of IT.
           </p>
-          <button className="resume"><b>Download CV</b></button>
+          <button className="resume">
+            <b>Download CV</b>
+          </button>
         </div>
         <div className="secondrightsection">
           <img src={images} alt="secondsection images" />
         </div>
       </section>
+
       <h1 className="centered-text">
-        <span className="introcolor">Professional </span>Skillset 
+        <span className="introcolor">Professional </span>Skillset
       </h1>
+
       <section className="thirdsection">
         <div className="container">
           <div className="box">
@@ -102,18 +108,25 @@ function App() {
           </div>
         </div>
       </section>
-      <hr />
-      <footer>
-  <h3 className="footercentered-text">
-    FeelFree To <span className="introcolor">Contact Me</span>
-  </h3>
-  <div class="social-icons">
-    <a href="#"><i class="fab fa-facebook-f"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
-  </div>
-</footer>
 
+      <hr />
+
+      <footer>
+        <h3 className="footercentered-text">
+          FeelFree To <span className="introcolor">Contact Me</span>
+        </h3>
+        <div class="social-icons">
+          <a href="#">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </footer>
     </>
   );
 }

@@ -1,6 +1,3 @@
-/* App.css */
-
-/* Header styles */
 nav {
   font-size: 22px;
   display: flex;
@@ -47,52 +44,48 @@ nav ul li a:hover::before {
 }
 
 body {
-  background-color: #111827; /* Set background color to #111827 */
+  background-color: #111827; 
   color: white;
 }
 
-/* Section styles */
+
 .firstsection {
   display: flex;
   justify-content: space-around;
-  margin: 1% -5% 3%; /* Adjust margin */
+  margin: 1% -5% 3%; 
   align-items: center;
 }
 
 .leftsection {
   font-size: 2rem;
-  text-align: center; /* Center align the text */
+  text-align: center; 
 }
 
-/* Reduce spacing between lines */
+
 .lefthello,
 .leftyash,
 .webcolor {
-  margin: 0; /* Reset margin */
-  padding: 3px 0; /* Add padding to top and bottom */
+  margin: 0; 
+  padding: 3px 0; 
 }
 
 .lefthello {
-  /* Add styles for "hello" */
-  font-size: 2.5rem; /* Make "hello" bigger */
+  font-size: 2.5rem; 
   text-align: left;
 }
 
 .leftyash {
   text-align: left;
-  /* Add styles for "I'm Yash" */
-  font-size: 2rem; /* You can adjust the font size */
+  font-size: 2rem; 
 }
 
 .Yashcolor {
-  /* Add styles for Yash */
-  color: #a855f7; /* You can use any color you prefer */
+  color: #a855f7; 
 }
 
 .webcolor {
-  /* Add styles for "Web Developer" */
-  color: #a855f7; /* You can use any color you prefer */
-  font-size: 2.5rem; /* Make "Web Developer" bigger */
+  color: #a855f7; 
+  font-size: 2.5rem; 
 }
 
 .rightsection img {
@@ -114,7 +107,7 @@ body {
 .secondsection {
   display: flex;
   justify-content: space-around;
-  margin: 2% -5% 3%; /* Adjust margin */
+  margin: 2% -5% 3%; 
   align-items: center;
 }
 
@@ -142,37 +135,37 @@ body {
 }
 
 .thirdsection {
-  text-align: center; /* Center-align the container */
+  text-align: center;
 }
 
 .container {
   display: flex;
-  justify-content: space-between; /* Distribute space between the boxes */
-  margin: 2% auto; /* Center the container horizontally */
-  width: 80%; /* Set width to adjust the spacing */
+  justify-content: space-between; 
+  margin: 2% auto; 
+  width: 80%; 
 }
 
 .box {
-  width: 23%; /* Set width to distribute equally */
-  transition: box-shadow 0.3s ease; /* Add transition for smoother effect */
+  width: 23%; 
+  transition: box-shadow 0.3s ease; 
   border-radius: 10px;
-  border: 1px solid transparent; /* Set initial border as transparent */
-  box-shadow: 0 2px 2px rgb(168, 85, 247);; /* Add box shadow for depth effect */
+  border: 1px solid transparent; 
+  box-shadow: 0 2px 2px rgb(168, 85, 247);
 }
 
-/* Apply box shadow on hover */
+
 .box:hover {
-  border: 2px solid #a855f7; /* Set initial border as transparent */
-  box-shadow: 2px 4px 4px rgb(168, 85, 247);; /* Change box shadow on hover for increased depth */
+  border: 2px solid #a855f7;
+  box-shadow: 2px 4px 4px rgb(168, 85, 247);
 }
 
-/* Additional styles for logos */
+
 .html-logo,
 .css-logo,
 .js-logo,
 .react-logo {
-  width: 100%; /* Make the logos fill the box */
-  max-width: 150px; /* Adjust the max-width of the logos */
+  width: 100%; 
+  max-width: 150px; 
 }
 
 hr{
@@ -182,26 +175,23 @@ hr{
 }
 
 
-/* App.css */
-
-/* Other styles... */
 
 .footercentered-text {
-  text-align: center; /* Center align the text */
+  text-align: center; 
 }
 
 .social-icons {
-  text-align: center; /* Center align the icons */
-  margin-top: 20px; /* Add space between the text and icons */
+  text-align: center; 
+  margin-top: 20px; 
 }
 
 .social-icons a {
-  color: #a855f7; /* Set color for the icons */
-  font-size: 24px; /* Set font size for the icons */
-  margin: 0 10px; /* Add space between the icons */
-  transition: color 0.3s ease; /* Add transition for smoother effect */
+  color: #a855f7;
+  font-size: 24px; 
+  margin: 0 10px; 
+  transition: color 0.3s ease; 
 }
 
 .social-icons a:hover {
-  color: #663399; /* Change color on hover */
+  color: #663399; 
 }
