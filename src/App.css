@@ -5,7 +5,7 @@ nav {
   align-items: center;
   height: 80px;
   width: 100%;
-  background-color: #111827;
+  background-color:#111827;
 }
 
 nav .left {
@@ -144,28 +144,26 @@ body {
   justify-content: space-evenly;
   display: flex;
   padding-top: 50px;
+  padding-bottom: 40px;
 }
 
 .html-logo,
 .css-logo,
 .js-logo,
+.mongo-logo,
+.git-logo,
+.python-logo,
+.node-logo,
 .react-logo {
   width: 100%; 
 }
 
-.footer {
-  text-align: center;
-  padding: 20px;
-  border-top: 1px solid white; /* Adding top border */
-}
-
-.footer h3 {
-  margin-bottom: 10px;
+.footer{
+background-color: black;
 }
 
 .footercentered-text {
-  padding-top: 30px;
-  margin-top: 20px;
+  padding-top: 20px;
   border-top: 3px solid #a855f7; /* Updated top border */
   text-align: center; 
 }
@@ -184,4 +182,18 @@ body {
 
 .social-icons a:hover {
   color: #663399; 
+}
+
+.footerlast{
+  display: flex;
+  padding-bottom: 10px;
+  justify-content: space-around;
+}
+
+.designby{
+
+}
+
+.Copyright{
+  color: #a855f7;
 }

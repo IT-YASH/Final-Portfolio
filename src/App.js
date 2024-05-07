@@ -3,6 +3,10 @@ import htmlLogo from "../src/images/html.png";
 import cssLogo from "../src/images/css.png";
 import jsLogo from "../src/images/js.png";
 import reactLogo from "../src/images/react.png";
+import nodelogo from "../src/images/nodejs.png"
+import pythonlogo from "../src/images/python.png"
+import gitlogo from "../src/images/git.png"
+import mongologo from "../src/images/mongo.png"
 import images from "../src/images/img.png";
 import "./App.css";
 
@@ -95,36 +99,44 @@ function App() {
             </div>
           </div>
           <div className="images">
-            <div className="html-logo">
-              <img src={htmlLogo} alt="htmllogo" srcset="" />
+            <div className="node-logo">
+              <img src={nodelogo} alt="htmllogo" srcset="" />
             </div>
-            <div className="css-logo">
-              <img src={cssLogo} alt="csslogo" srcset="" />
+            <div className="git-logo">
+              <img src={gitlogo} alt="csslogo" srcset="" />
             </div>
-            <div className="js-logo">
-              <img src={jsLogo} alt="jslogo" srcset="" />
+            <div className="python-logo">
+              <img src={pythonlogo} alt="jslogo" srcset="" />
             </div>
-            <div className="react-logo">
-              <img src={reactLogo} alt="reactlogo" srcset="" />
+            <div className="mongo-logo">
+              <img src={mongologo} alt="reactlogo" srcset="" />
             </div>
           </div>
         </div>
       </section>
 
-      <footer>
+      <footer className="footer">
   <h3 className="footercentered-text">
     FeelFree To <span className="introcolor">Contact Me</span>
   </h3>
   <div class="social-icons">
-    <a href="https://www.facebook.com/yourprofile">
+    <a href="">
       <i class="fab fa-facebook-f"></i>
     </a>
-    <a href="https://twitter.com/yourprofile">
+    <a href="">
       <i class="fab fa-twitter"></i>
     </a>
-    <a href="https://www.instagram.com/yourprofile">
+    <a href="">
       <i class="fab fa-instagram"></i>
     </a>
+  </div>
+  <div className="footerlast">
+    <div className="designby">
+      Designed by Yash Patel
+    </div>
+    <div className="Copyright">
+      Copyright@2003
+    </div>
   </div>
 </footer>
     </>
