@@ -120,13 +120,13 @@ function App() {
     FeelFree To <span className="introcolor">Contact Me</span>
   </h3>
   <div class="social-icons">
-    <a href="">
-      <i class="fab fa-facebook-f"></i>
+    <a href="/">
+      <i class="fa-brands fa-faceboo"></i>
     </a>
-    <a href="">
+    <a href="/">
       <i class="fab fa-twitter"></i>
     </a>
-    <a href="">
+    <a href="/">
       <i class="fab fa-instagram"></i>
     </a>
   </div>
