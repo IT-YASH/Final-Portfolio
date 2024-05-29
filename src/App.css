@@ -4,12 +4,31 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 80px;
-  width: 100%;
+  /* width: 100%; */
   background-color:#111827;
 }
  
 nav .left {
   color: white;
+}
+
+.navigation{
+  align-content: center;
+  justify-items: center;
+  padding: 2px;
+  margin: 10px 10px;
+  background-color: white;
+  border-radius: 25px;
+  width: 50px;
+  height: 20px;
+}
+
+.navigatebutton{
+  width: 15px;
+  margin-left: 3px;
+  border-radius: 50px;
+  height: 15px;
+  background-color: black;
 }
 
 nav ul {
@@ -37,6 +56,10 @@ nav ul li a::before {
   background-color: white;
   transition: width 0.3s ease-in-out;
   width: 0;
+}
+
+.right{
+  display: flex;
 }
 
 nav ul li a:hover::before {
@@ -68,6 +91,47 @@ body {
 .webcolor {
   margin: 0; 
   padding: 3px 0; 
+}
+
+.aboutpage{
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.about-firstsection{
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.about-leftsection{
+  padding-right: 100px;
+}
+
+.education{
+  margin-top: 50px;
+}
+
+
+
+.about-secleftsection{
+  padding-right: 100px;
+}
+
+.about-secrightsection{
+  align-items: center;
+}
+
+.know-who,.education{
+  font-size: 2rem; 
+}
+
+.i-m,.yashpatel,.action,.sigmauniversity,.Diplomasigma,.school{
+  color: #a855f7;
+}
+
+.sigmainfo,.schoolinfo{
+font-size: 0.9rem;
 }
 
 .lefthello {
@@ -103,6 +167,11 @@ body {
 
 .introcolor{
   color: #a855f7;
+}
+
+.about-secondsection{
+  display: flex;
+  padding-bottom: 10px;
 }
 
 .secondsection {

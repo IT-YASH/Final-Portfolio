@@ -23,6 +23,10 @@ function Navbar() {
             <li>
               <a href="/">Connect with Me</a>
             </li>
+          <div className="navigation">
+            <div className="navigatebutton">
+            </div>
+          </div>
           </ul>
         </div>
       </nav>
