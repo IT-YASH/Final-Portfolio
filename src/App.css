@@ -1,4 +1,3 @@
-/* New CSS for sticky and transparent functionality */
 .header {
   position: fixed;
   top: 0;
@@ -6,11 +5,11 @@
   background-color: transparent;
   color: white;
   padding: 0 20px;
-  z-index: 1000; /* Ensure the navbar is above other content */
+  z-index: 1000;
 }
 
 .header::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -18,15 +17,29 @@
   height: 100%;
   background-color: #111827;
   transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
-  z-index: -1; /* Ensure the pseudo-element is behind the navbar content */
+  z-index: -1;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0; 
+  background-color: #a855f7; 
+  transition: height 0.3s ease; 
 }
 
 .header.scrolled::before {
-  background-color: rgba(17, 24, 39, 0.7); /* Make it semi-transparent */
-  backdrop-filter: blur(10px); /* Add blur effect */
+  background-color: rgba(17, 24, 39, 0.7);
+  backdrop-filter: blur(10px);
 }
 
-/* Existing styles */
+.header.scrolled::after {
+  height: 1px; 
+}
+
 nav {
   font-size: 22px;
   display: flex;
@@ -101,7 +114,7 @@ body {
 }
 
 .firstsection {
-  padding: 40px 0px;
+  margin-top: 10%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -238,25 +251,82 @@ body {
 .thirdsection {
   text-align: center;
   padding-top: 30px;
+  background-color: #111827;
+  position: relative;
+  overflow: hidden;
 }
 
-.images {
-  justify-content: space-evenly;
+.container {
   display: flex;
-  padding-top: 50px;
-  padding-bottom: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.html-logo,
-.css-logo,
-.js-logo,
-.mongo-logo,
-.git-logo,
-.python-logo,
-.node-logo,
-.react-logo {
-  width: 100%;
+.card {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 30px;
+  border: 3px solid transparent;
+  transition: all 0.3s ease;
+  position: relative;
 }
+
+.card:hover {
+  border-color: #a855f7;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #a855f7;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+}
+
+.card-content:hover {
+  filter: grayscale(0%);
+}
+
+.card img {
+  max-width: 35%;
+  max-height: 35%;
+  transition: filter 0.3s ease;
+}
+
+.card p {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover p {
+  opacity: 1;
+}
+
+/* Meteor Effect */
+.meteor {
+  position: absolute;
+  width: 2px;
+  height: 90px;
+  background: linear-gradient(45deg, #ff9900, transparent);
+  animation: meteor-fall linear infinite;
+}
+
+@keyframes meteor-fall {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(45deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate3d(-200vw, 200vh, 0) rotate(45deg);
+    opacity: 0;
+  }
+}
+
 
 .footer {
   background-color: black;
@@ -264,7 +334,7 @@ body {
 
 .footercentered-text {
   padding-top: 20px;
-  border-top: 3px solid #a855f7; /* Updated top border */
+  border-top: 3px solid #a855f7;
   text-align: center;
 }
 

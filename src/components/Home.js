@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../App.css";
 import htmlLogo from "../images/html.png";
 import cssLogo from "../images/css.png";
@@ -11,6 +11,19 @@ import mongologo from "../images/mongo.png";
 import images from "../images/img.png";
 
 function Home() {
+  useEffect(() => {
+    const thirdSection = document.querySelector('.thirdsection');
+    for (let i = 0; i < 20; i++) { // Adjust number of meteors
+      const meteor = document.createElement('div');
+      meteor.classList.add('meteor');
+      meteor.style.top = `${Math.random() * 100}vh`;
+      meteor.style.left = `${Math.random() * 100}vw`;
+      meteor.style.animationDelay = `${Math.random() * 5}s`;
+      meteor.style.animationDuration = `${Math.random() * 3 + 2}s`;
+      thirdSection.appendChild(meteor);
+    }
+  }, []);
+
   return (
     <>
       <section className="firstsection">
@@ -59,32 +72,52 @@ function Home() {
 
       <section className="thirdsection">
         <div className="container">
-          <div className="images">
-            <div className="html-logo">
-              <img src={htmlLogo} alt="htmllogo" srcset="" />
-            </div>
-            <div className="css-logo">
-              <img src={cssLogo} alt="csslogo" srcset="" />
-            </div>
-            <div className="js-logo">
-              <img src={jsLogo} alt="jslogo" srcset="" />
-            </div>
-            <div className="react-logo">
-              <img src={reactLogo} alt="reactlogo" srcset="" />
+          <div className="card">
+            <div className="card-content">
+              <img src={htmlLogo} alt="HTML" />
+              <p>HTML</p>
             </div>
           </div>
-          <div className="images">
-            <div className="node-logo">
-              <img src={nodelogo} alt="htmllogo" srcset="" />
+          <div className="card">
+            <div className="card-content">
+              <img src={cssLogo} alt="CSS" />
+              <p>CSS</p>
             </div>
-            <div className="git-logo">
-              <img src={gitlogo} alt="csslogo" srcset="" />
+          </div>
+          <div className="card">
+            <div className="card-content">
+              <img src={jsLogo} alt="JavaScript" />
+              <p>JavaScript</p>
             </div>
-            <div className="python-logo">
-              <img src={pythonlogo} alt="jslogo" srcset="" />
+          </div>
+          <div className="card">
+            <div className="card-content">
+              <img src={reactLogo} alt="React" />
+              <p>React</p>
             </div>
-            <div className="mongo-logo">
-              <img src={mongologo} alt="reactlogo" srcset="" />
+          </div>
+          <div className="card">
+            <div className="card-content">
+              <img src={mongologo} alt="MongoDB" />
+              <p>MongoDB</p>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-content">
+              <img src={nodelogo} alt="Node.js" />
+              <p>Node.js</p>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-content">
+              <img src={pythonlogo} alt="Python" />
+              <p>Python</p>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-content">
+              <img src={gitlogo} alt="Git" />
+              <p>Git</p>
             </div>
           </div>
         </div>
