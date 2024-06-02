@@ -1,9 +1,26 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../App.css";
 
 function Navbar() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <header>
+    <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <nav>
         <div className="left">Yash's Portfolio</div>
         <div className="right">
@@ -23,11 +40,11 @@ function Navbar() {
             <li>
               <a href="/">Connect with Me</a>
             </li>
-          <div className="navigation">
-            <div className="navigatebutton">
-            </div>
-          </div>
           </ul>
+        </div>
+        <div className="navigation">
+          <div className="navigatebutton">
+          </div>
         </div>
       </nav>
     </header>

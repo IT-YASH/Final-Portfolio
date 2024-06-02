@@ -1,29 +1,56 @@
+/* New CSS for sticky and transparent functionality */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  padding: 0 20px;
+  z-index: 1000; /* Ensure the navbar is above other content */
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #111827;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+  z-index: -1; /* Ensure the pseudo-element is behind the navbar content */
+}
+
+.header.scrolled::before {
+  background-color: rgba(17, 24, 39, 0.7); /* Make it semi-transparent */
+  backdrop-filter: blur(10px); /* Add blur effect */
+}
+
+/* Existing styles */
 nav {
   font-size: 22px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 80px;
-  /* width: 100%; */
-  background-color:#111827;
 }
- 
+
 nav .left {
   color: white;
 }
 
-.navigation{
+.navigation {
   align-content: center;
   justify-items: center;
   padding: 2px;
-  margin: 10px 10px;
+  margin: 10px -10px;
   background-color: white;
   border-radius: 25px;
   width: 50px;
   height: 20px;
 }
 
-.navigatebutton{
+.navigatebutton {
   width: 15px;
   margin-left: 3px;
   border-radius: 50px;
@@ -34,6 +61,7 @@ nav .left {
 nav ul {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 nav ul li {
@@ -52,13 +80,14 @@ nav ul li a::before {
   position: absolute;
   bottom: -2px;
   left: 0;
-  height: 2px;
+  border-radius: 30px;
+  height: 3.5px;
   background-color: white;
   transition: width 0.3s ease-in-out;
   width: 0;
 }
 
-.right{
+.right {
   display: flex;
 }
 
@@ -67,10 +96,9 @@ nav ul li a:hover::before {
 }
 
 body {
-  background-color: #111827; 
+  background-color: #111827;
   color: white;
 }
-
 
 .firstsection {
   padding: 40px 0px;
@@ -81,76 +109,80 @@ body {
 
 .leftsection {
   font-size: 2rem;
-  text-align: center; 
+  text-align: center;
   margin-right: 160px;
 }
-
 
 .lefthello,
 .leftyash,
 .webcolor {
-  margin: 0; 
-  padding: 3px 0; 
+  margin: 0;
+  padding: 3px 0;
 }
 
-.aboutpage{
+.aboutpage {
   padding-left: 6%;
   padding-right: 6%;
 }
 
-.about-firstsection{
+.about-firstsection {
   margin-top: 60px;
   display: flex;
   align-items: center;
 }
 
-.about-leftsection{
+.about-leftsection {
   padding-right: 100px;
 }
 
-.education{
+.education {
   margin-top: 50px;
 }
 
-
-
-.about-secleftsection{
+.about-secleftsection {
   padding-right: 100px;
 }
 
-.about-secrightsection{
+.about-secrightsection {
   align-items: center;
 }
 
-.know-who,.education{
-  font-size: 2rem; 
+.know-who,
+.education {
+  font-size: 2rem;
 }
 
-.i-m,.yashpatel,.action,.sigmauniversity,.Diplomasigma,.school{
+.i-m,
+.yashpatel,
+.action,
+.sigmauniversity,
+.Diplomasigma,
+.school {
   color: #a855f7;
 }
 
-.sigmainfo,.schoolinfo{
-font-size: 0.9rem;
+.sigmainfo,
+.schoolinfo {
+  font-size: 0.9rem;
 }
 
 .lefthello {
-  font-size: 2.5rem; 
+  font-size: 2.5rem;
   text-align: left;
 }
 
 .leftyash {
   text-align: left;
-  font-size: 2rem; 
+  font-size: 2rem;
 }
 
 .Yashcolor {
-  color: #a855f7; 
+  color: #a855f7;
 }
 
 .webcolor {
-  color: #a855f7; 
-  font-size: 2.5rem; 
+  color: #a855f7;
+  font-size: 2.5rem;
 }
 
 .rightsection img {
@@ -165,11 +197,11 @@ font-size: 0.9rem;
   font-size: 2rem;
 }
 
-.introcolor{
+.introcolor {
   color: #a855f7;
 }
 
-.about-secondsection{
+.about-secondsection {
   display: flex;
   padding-bottom: 10px;
 }
@@ -187,12 +219,11 @@ font-size: 0.9rem;
   width: 55%;
 }
 
-.secondrightsection{
+.secondrightsection {
   width: 35%;
 }
 
-
-.paragraph{
+.paragraph {
   color: #a855f7;
 }
 
@@ -209,7 +240,7 @@ font-size: 0.9rem;
   padding-top: 30px;
 }
 
-.images{
+.images {
   justify-content: space-evenly;
   display: flex;
   padding-top: 50px;
@@ -224,41 +255,41 @@ font-size: 0.9rem;
 .python-logo,
 .node-logo,
 .react-logo {
-  width: 100%; 
+  width: 100%;
 }
 
-.footer{
-background-color: black;
+.footer {
+  background-color: black;
 }
 
 .footercentered-text {
   padding-top: 20px;
   border-top: 3px solid #a855f7; /* Updated top border */
-  text-align: center; 
+  text-align: center;
 }
 
 .social-icons {
-  text-align: center; 
-  margin-top: 20px; 
+  text-align: center;
+  margin-top: 20px;
 }
 
 .social-icons a {
   color: #a855f7;
-  font-size: 24px; 
-  margin: 0 10px; 
-  transition: color 0.3s ease; 
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-  color: #663399; 
+  color: #663399;
 }
 
-.footerlast{
+.footerlast {
   display: flex;
   padding-bottom: 10px;
   justify-content: space-around;
 }
 
-.Copyright{
+.Copyright {
   color: #a855f7;
 }
