@@ -1,0 +1,58 @@
+.Projectsection {
+    padding-top: 150px; /* Adjust this value based on the height of the navbar */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allows the cards to wrap to the next line on smaller screens */
+    min-height: 80vh;
+  }
+  
+  .projectcard {
+    width: 300px; /* Adjusted to a reasonable size for a card */
+    height: 350px; /* Let the height adjust based on content */
+    border: 2px solid #a855f7;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the items within the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some shadow for better visualization */
+    padding: 20px;
+    margin: 20px; 
+  }
+
+  .projectcard:hover{
+    border-color: #a855f7;
+    box-shadow: 0 0 15px #a855f7;
+  }
+  
+  .projectimage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .projectimage img {
+    max-width: 100%; /* Ensure the image fits within the card */
+    height: auto;
+    border-radius: 10px; /* Add some rounding to the image if desired */
+  }
+  
+  .projectinfo {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .projectbutton {
+    background-color: #a855f7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 4px;
+  }
+  
+  .projectbutton:hover {
+    background-color: #9333ea;
+  }
+  

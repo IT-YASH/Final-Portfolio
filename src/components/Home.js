@@ -13,7 +13,7 @@ import images from "../images/img.png";
 function Home() {
   useEffect(() => {
     const thirdSection = document.querySelector('.thirdsection');
-    for (let i = 0; i < 20; i++) { // Adjust number of meteors
+    for (let i = 0; i < 20; i++) { 
       const meteor = document.createElement('div');
       meteor.classList.add('meteor');
       meteor.style.top = `${Math.random() * 100}vh`;

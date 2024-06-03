@@ -26,9 +26,9 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 0; 
-  background-color: #a855f7; 
-  transition: height 0.3s ease; 
+  height: 0;
+  background-color: #a855f7;
+  transition: height 0.3s ease;
 }
 
 .header.scrolled::before {
@@ -37,7 +37,7 @@
 }
 
 .header.scrolled::after {
-  height: 1px; 
+  height: 1px;
 }
 
 nav {
@@ -107,6 +107,7 @@ nav ul li a::before {
 nav ul li a:hover::before {
   width: 100%;
 }
+
 
 body {
   background-color: #111827;
@@ -307,7 +308,6 @@ body {
   opacity: 1;
 }
 
-/* Meteor Effect */
 .meteor {
   position: absolute;
   width: 2px;
@@ -327,6 +327,24 @@ body {
   }
 }
 
+/* Project section css */
+.Projectsection{
+  display: flex;
+  justify-content: space-around;
+}
+
+.projectcard{
+  width: 40px;
+  height: 60px;
+  border-radius: 20px;
+  border-color: #a855f7;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectimage{
+  width: 100%;
+}
 
 .footer {
   background-color: black;
