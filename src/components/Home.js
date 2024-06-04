@@ -12,10 +12,10 @@ import images from "../images/img.png";
 
 function Home() {
   useEffect(() => {
-    const thirdSection = document.querySelector('.thirdsection');
-    for (let i = 0; i < 20; i++) { 
-      const meteor = document.createElement('div');
-      meteor.classList.add('meteor');
+    const thirdSection = document.querySelector(".thirdsection");
+    for (let i = 0; i < 20; i++) {
+      const meteor = document.createElement("div");
+      meteor.classList.add("meteor");
       meteor.style.top = `${Math.random() * 100}vh`;
       meteor.style.left = `${Math.random() * 100}vw`;
       meteor.style.animationDelay = `${Math.random() * 5}s`;
@@ -58,7 +58,9 @@ function Home() {
             endless possibilities in the dynamic field of IT.
           </p>
           <button className="resume">
-            <b>Download CV</b>
+            <a href="https://docs.google.com/document/d/1ALnQtPmfqvIRDaGNSsMq-jyJgtghXY7z/edit">
+              <b>Download CV</b>
+            </a>
           </button>
         </div>
         <div className="secondrightsection">

@@ -3,7 +3,8 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 // import About from "./components/About";
 // import Home from "./components/Home"
-import Project from "./components/Project";
+// import Project from "./components/Project";
+import Experience from "./components/experience";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Navbar />
       {/* <About /> */}
       {/* <Home /> */}
-      <Project />
+      {/* <Project /> */}
+      <Experience/>
       <Footer />
     </>
   );
