@@ -21,9 +21,9 @@ const projects = [
   },
   {
     id: 3,
-    name: "Real Time Voice Translation",
+    name: "Universal Translator",
     image: require("../images/html.png"),
-    info: "Environmental awareness and actions.",
+    info: "Real Time Voice Translation",
     link: "https://insta",
     github: ""
   },
