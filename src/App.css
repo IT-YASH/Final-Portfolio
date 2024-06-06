@@ -108,6 +108,22 @@ nav ul li a:hover::before {
   width: 100%;
 }
 
+@media only screen and (max-width: 900px) {
+  .header {
+    padding: 30px 0px;
+  }
+
+  nav {
+    font-size: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav ul li {
+    margin: 4px 10px;
+  }
+}
+
 body {
   background-color: #111827;
   color: white;
@@ -115,6 +131,7 @@ body {
 
 .firstsection {
   margin-top: 10%;
+  padding: 65px 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -199,9 +216,7 @@ body {
 }
 
 .rightsection img {
-  width: 95%;
-  margin: 49px 4px;
-  padding: 3px;
+  width: 100%;
 }
 
 .centered-text {
@@ -258,7 +273,6 @@ body {
 .visitsitelink:hover {
   background-color: #9333ea;
 }
-
 
 .thirdsection {
   text-align: center;
@@ -338,7 +352,6 @@ body {
   }
 }
 
-/* Project section css */
 .Projectsection {
   display: flex;
   justify-content: space-around;
