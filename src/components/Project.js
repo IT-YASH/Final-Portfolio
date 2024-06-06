@@ -1,6 +1,6 @@
 import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import "../Project.css";
+import "../Css/Project.css";
 
 const projects = [
   {
@@ -8,21 +8,24 @@ const projects = [
     name: "We Care",
     image: require("../images/html.png"),
     info: "We care is hospital management website that created for booking bed, ordering Medicine. It also provide the bed available in hospital. It also provide information about different Hospital details. The site created using HTML, Bootstrap, java, ASP.net, C#. Handling The backend",
-    link:"http://GIt"
+    link: "http://GIt",
+    github: ""
   },
   {
     id: 2,
     name: "Blog Website",
     image: require("../images/html.png"),
     info: "Worked remotely as a Full Stack Development Intern at Bharat Intern for one enriching month. Successfully undertook and accomplished challenging tasks, including the creation of a dynamic blog website and implementation of a secure login form using Node.js and MongoDB. Demonstrated proficiency in full-stack development and acquired valuable hands-on experience in web application development. Grateful for the opportunity to contribute to meaningful projects.",
-    link:"http://youtube"
+    link: "https://it-yash.github.io/Login-Blog/",
+    github: "https://github.com/IT-YASH/Login-Blog"
   },
   {
     id: 3,
     name: "Real Time Voice Translation",
     image: require("../images/html.png"),
     info: "Environmental awareness and actions.",
-    link:"https://insta"
+    link: "https://insta",
+    github: ""
   },
 ];
 
@@ -38,11 +41,18 @@ function Project() {
             <h3>{project.name}</h3>
             <p>{project.info}</p>
           </div>
-          <button className="projectbutton">
-            <a href={project.link}>
-              Visit <FaExternalLinkAlt />
-            </a>
-          </button>
+          <div className="buttonssection">
+            <button className="visitsitelink">
+              <a href={project.link}>
+                Visit <FaExternalLinkAlt />
+              </a>
+            </button>
+            <button className="visitsitelink">
+              <a href={project.github}>
+                GitHub <FaExternalLinkAlt />
+              </a>
+            </button>
+          </div>
         </div>
       ))}
     </div>

@@ -1,0 +1,69 @@
+.Projectsection {
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  min-height: 80vh;
+}
+
+.projectcard {
+  width: 350px;
+  height: auto;
+  border: 2px solid #a855f7;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+.projectcard:hover {
+  border-color: #a855f7;
+  box-shadow: 0 0 15px #a855f7;
+}
+
+.projectimage {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.projectimage img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.projectinfo {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.buttonssection {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2px;
+}
+
+.visitsitelink {
+  background-color: #a855f7;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+}
+
+.visitsitelink a {
+  color: white;
+  text-decoration: none;
+}
+
+.visitsitelink:hover {
+  background-color: #9333ea;
+}
