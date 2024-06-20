@@ -1,3 +1,15 @@
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.light {
+  background-color: #ffffff;
+}
+
+body.dark {
+  background-color: #111827;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -49,26 +61,7 @@ nav {
 }
 
 nav .left {
-  color: white;
-}
-
-.navigation {
-  align-content: center;
-  justify-items: center;
-  padding: 2px;
-  margin: 10px -10px;
-  background-color: white;
-  border-radius: 25px;
-  width: 50px;
-  height: 20px;
-}
-
-.navigatebutton {
-  width: 15px;
-  margin-left: 3px;
-  border-radius: 50px;
-  height: 15px;
-  background-color: black;
+  color: inherit;
 }
 
 nav ul {
@@ -91,7 +84,7 @@ nav ul li a {
 nav ul li a::before {
   content: "";
   position: absolute;
-  bottom: -2px;
+  bottom: -5px;
   left: 0;
   border-radius: 30px;
   height: 3.5px;
@@ -104,8 +97,38 @@ nav ul li a::before {
   display: flex;
 }
 
-nav ul li a:hover::before {
+nav ul li a:hover::before,
+nav ul li a.active::before {
   width: 100%;
+  height: 4px;
+  background-color: #a855f7;
+}
+
+.navigation {
+  align-content: center;
+  justify-items: center;
+  padding: 2px;
+  margin: 10px -10px;
+  background-color: white;
+  border-radius: 25px;
+  width: 150px;
+  height: 40px;
+}
+
+.navigatebutton {
+  width: 100%;
+  border: none;
+  border-radius: 25px;
+  height: 100%;
+  background-color: #111827;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.navigatebutton:hover {
+  background-color: #a855f7;
 }
 
 @media only screen and (max-width: 900px) {

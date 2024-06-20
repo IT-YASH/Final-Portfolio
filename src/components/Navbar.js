@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
+import { NavLink } from "react-router-dom";
 import "../App.css";
 
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [theme, setTheme] = useState("light");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,32 +21,51 @@ function Navbar() {
     };
   }, []);
 
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme(theme === "light" ? "dark" : "light");
+  };
+
   return (
-    <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
+    <header className={`header ${isScrolled ? "scrolled" : ""}`}>
       <nav>
         <div className="left">Yash's Portfolio</div>
         <div className="right">
           <ul>
             <li>
-              <a href="/">Home</a>
+              <NavLink exact to="/" activeClassName="active">
+                Home
+              </NavLink>
             </li>
             <li>
-              <a href="/">About</a>
+              <NavLink to="/about" activeClassName="active">
+                About
+              </NavLink>
             </li>
             <li>
-              <a href="/">Projects</a>
+              <NavLink to="/projects" activeClassName="active">
+                Projects
+              </NavLink>
             </li>
             <li>
-              <a href="/">Experience</a>
+              <NavLink to="/experience" activeClassName="active">
+                Experience
+              </NavLink>
             </li>
             <li>
-              <a href="/">Connect with Me</a>
+              <NavLink to="/contact" activeClassName="active">
+                Connect with Me
+              </NavLink>
             </li>
           </ul>
         </div>
         <div className="navigation">
-          <div className="navigatebutton">
-          </div>
+          <button className="navigatebutton" onClick={toggleTheme}>
+            {theme === "light" ? "Dark Mode" : "Light Mode"}
+          </button>
         </div>
       </nav>
     </header>
