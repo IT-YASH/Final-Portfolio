@@ -64,7 +64,7 @@ function Navbar() {
         </div>
         <div className="navigation">
           <button className="navigatebutton" onClick={toggleTheme}>
-            {theme === "light" ? "Dark Mode" : "Light Mode"}
+            {theme === "light" ? "Dark" : "Light"}
           </button>
         </div>
       </nav>
