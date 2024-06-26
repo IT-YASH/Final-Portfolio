@@ -2,13 +2,13 @@ body {
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+body.dark {
+  background-color: #111827;
+}
 body.light {
   background-color: #ffffff;
 }
 
-body.dark {
-  background-color: #111827;
-}
 
 .header {
   position: fixed;

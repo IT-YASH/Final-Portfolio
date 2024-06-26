@@ -7,17 +7,17 @@ const projects = [
     id: 1,
     name: "We Care",
     image: require("../images/html.png"),
-    info: "We care is hospital management website that created for booking bed, ordering Medicine. It also provide the bed available in hospital. It also provide information about different Hospital details. The site created using HTML, Bootstrap, java, ASP.net, C#. Handling The backend",
+    info: "Developed a hospital management website facilitating bed booking, medicine ordering, and bed availability checks across multiple hospitals. Utilized ASP.NET Web Forms with .aspx pages and master pages for consistent design. Implemented frontend styling with Bootstrap, while backend functionality was managed using C# and Java.",
     link: "http://GIt",
-    github: ""
+    github: "",
   },
   {
     id: 2,
     name: "Blog Website",
     image: require("../images/html.png"),
-    info: "Worked remotely as a Full Stack Development Intern at Bharat Intern for one enriching month. Successfully undertook and accomplished challenging tasks, including the creation of a dynamic blog website and implementation of a secure login form using Node.js and MongoDB. Demonstrated proficiency in full-stack development and acquired valuable hands-on experience in web application development. Grateful for the opportunity to contribute to meaningful projects.",
+    info: "Developed a dynamic blog website enabling users to add, remove, and update blog posts using Node.js, Express, MongoDB, and EJS (Embedded JavaScript) for templating. Implemented search functionality for users to find specific blogs, displaying dates and months for each post. Created an admin panel with the same stack for comprehensive content management. Integrated a secure login system requiring users to authenticate with credentials stored in the database.",
     link: "https://it-yash.github.io/Login-Blog/",
-    github: "https://github.com/IT-YASH/Login-Blog"
+    github: "https://github.com/IT-YASH/Login-Blog",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const projects = [
     image: require("../images/html.png"),
     info: "Real Time Voice Translation",
     link: "https://insta",
-    github: ""
+    github: "",
   },
 ];
 
