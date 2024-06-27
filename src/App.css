@@ -5,10 +5,10 @@ body {
 body.dark {
   background-color: #111827;
 }
+
 body.light {
   background-color: #ffffff;
 }
-
 
 .header {
   position: fixed;
