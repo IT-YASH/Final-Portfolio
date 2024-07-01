@@ -1,0 +1,36 @@
+.footer {
+    background-color: black;
+  }
+  
+  .footercentered-text {
+    padding-top: 20px;
+    border-top: 3px solid #a855f7;
+    text-align: center;
+  }
+  
+  .social-icons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    color: #a855f7;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #663399;
+  }
+  
+  .footerlast {
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: space-around;
+  }
+  
+  .Copyright {
+    color: #a855f7;
+  }
+  

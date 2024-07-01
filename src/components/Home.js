@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import "../App.css";
+// import "../App.css";
+import "../Css/Home.css"
 import htmlLogo from "../images/html.png";
 import cssLogo from "../images/css.png";
 import jsLogo from "../images/js.png";
