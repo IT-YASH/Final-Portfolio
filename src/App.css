@@ -4,33 +4,13 @@ body {
 
 body.dark {
   background-color: #111827;
+  color: white;
 }
 
 body.light {
   background-color: #ffffff;
-}
-
-body {
-  background-color: #111827;
-  color: white;
+  color: black;
 }
 
 
-/* .Projectsection {
-  display: flex;
-  justify-content: space-around;
-}
-
-.projectcard {
-  width: 40px;
-  height: 60px;
-  border-radius: 20px;
-  border-color: #a855f7;
-  display: flex;
-  flex-direction: column;
-}
-
-.projectimage {
-  width: 100%;
-} */
 

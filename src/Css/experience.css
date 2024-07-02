@@ -1,52 +1,82 @@
 .experience-section {
   padding: 50px 0;
-  background-color: var(--background-color, #111827);
-  color: var(--text-color, white);
+  text-align: center;
 }
 
 .section-title {
-  text-align: center;
   font-size: 2.5rem;
-  margin-bottom: 40px;
-  color: #a855f7;
+  margin-bottom: 30px;
+  color: white;
 }
 
 .experience-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
 }
 
-.experience-card {
-  background-color: #1f2937;
-  border-radius: 10px;
+.experience-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: #fff;
+  margin: 15px;
   padding: 20px;
-  width: 300px;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 10px;
+  width: 800px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.experience-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+.experience-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px white; 
+}
+
+.experience-details {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.experience-image {
+  flex: 1;
+  text-align: center;
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 10px;
+  max-width: 300px; /* Limit image width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.experience-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.experience-role,
+.experience-duration {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
 }
 
 .certificate-button {
   background-color: #a855f7;
   color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
   text-decoration: none;
-  display: inline-block;
-  margin: 10px 0;
-  transition: background-color 0.3s;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  transition: background-color 0.3s ease;
 }
 
 .certificate-button:hover {
   background-color: #9333ea;
 }
-

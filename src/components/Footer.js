@@ -1,22 +1,22 @@
 import React from "react";
-import "../App.css"
-import "../Css/Footer.css"
+import "../App.css";
+import "../Css/Footer.css";
 
 function Footer() {
   return (
     <footer className="footer">
       <h3 className="footercentered-text">
-        FeelFree To <span className="introcolor">Contact Me</span>
+        Feel Free To <span className="introcolor">Contact Me</span>
       </h3>
-      <div class="social-icons">
+      <div className="social-icons">
         <a href="/">
-          <i class="fa-brands fa-faceboo"></i>
+          <i className="fa-brands fa-facebook"></i>
         </a>
         <a href="/">
-          <i class="fab fa-twitter"></i>
+          <i className="fab fa-twitter"></i>
         </a>
         <a href="/">
-          <i class="fab fa-instagram"></i>
+          <i className="fab fa-instagram"></i>
         </a>
       </div>
       <div className="footerlast">
