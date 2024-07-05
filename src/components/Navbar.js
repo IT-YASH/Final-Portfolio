@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "../Css/Navbar.css";
+import { FaHome, FaInfoCircle, FaProjectDiagram, FaBriefcase, FaEnvelope } from "react-icons/fa";
 
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -38,26 +39,31 @@ function Navbar() {
           <ul>
             <li>
               <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+                <FaHome className="nav-icon" />
                 Home
               </NavLink>
             </li>
             <li>
               <NavLink to="/about" className={({ isActive }) => (isActive ? "active" : "")}>
+                <FaInfoCircle className="nav-icon" />
                 About
               </NavLink>
             </li>
             <li>
               <NavLink to="/projects" className={({ isActive }) => (isActive ? "active" : "")}>
+                <FaProjectDiagram className="nav-icon" />
                 Projects
               </NavLink>
             </li>
             <li>
               <NavLink to="/experience" className={({ isActive }) => (isActive ? "active" : "")}>
+                <FaBriefcase className="nav-icon" />
                 Experience
               </NavLink>
             </li>
             <li>
               <NavLink to="/contact" className={({ isActive }) => (isActive ? "active" : "")}>
+                <FaEnvelope className="nav-icon" />
                 Connect with Me
               </NavLink>
             </li>

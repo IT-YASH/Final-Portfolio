@@ -86,6 +86,12 @@ nav ul li a {
   position: relative;
   color: white;
   text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li a .nav-icon {
+  margin-right: 8px;
 }
 
 nav ul li a::before {
