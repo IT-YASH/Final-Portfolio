@@ -1,36 +1,47 @@
+@keyframes shine {
+  0% {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #a855f7, 0 0 30px #a855f7, 0 0 40px #a855f7, 0 0 50px #a855f7, 0 0 75px #a855f7;
+  }
+  100% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #a855f7, 0 0 50px #a855f7, 0 0 75px #a855f7, 0 0 100px #a855f7, 0 0 125px #a855f7;
+  }
+}
+
 .footer {
-    background-color: black;
-  }
-  
-  .footercentered-text {
-    padding-top: 20px;
-    border-top: 3px solid #a855f7;
-    text-align: center;
-  }
-  
-  .social-icons {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  .social-icons a {
-    color: #a855f7;
-    font-size: 24px;
-    margin: 0 10px;
-    transition: color 0.3s ease;
-  }
-  
-  .social-icons a:hover {
-    color: #663399;
-  }
-  
-  .footerlast {
-    display: flex;
-    padding-bottom: 10px;
-    justify-content: space-around;
-  }
-  
-  .Copyright {
-    color: #a855f7;
-  }
-  
+  background-color: black; 
+  color: white;
+}
+
+.footercentered-text {
+  padding-top: 20px;
+  border-top: 3px solid #a855f7;
+  text-align: center;
+}
+
+.social-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #a855f7;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffffff; 
+  animation: shine 1s infinite;
+}
+
+.footerlast {
+  display: flex;
+  padding-bottom: 10px;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.designby, .Copyright {
+  color: #a855f7;
+}

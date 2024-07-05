@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import emailjs from "emailjs-com";
 import "../Css/Contact.css";
-import profileImage from "../images/profile.png"; // Replace with your actual profile image path
+import profileImage from "../images/css.png"; // Replace with your actual profile image path
 
 const Contact = () => {
     const form = useRef();
