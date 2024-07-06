@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import "../Css/Home.css";
+// import "../App.css";
+import "../Css/Home.css"
 import htmlLogo from "../images/html.png";
 import cssLogo from "../images/css.png";
 import jsLogo from "../images/js.png";
@@ -12,28 +13,17 @@ import mongologo from "../images/mongo.png";
 import images from "../images/img.png";
 
 function Home() {
-  const [animatedText, setAnimatedText] = useState("");
-
   useEffect(() => {
-    const textElements = document.querySelectorAll(".animated-text");
-
-    textElements.forEach(element => {
-      const words = element.textContent.split(" ");
-      let currentWordIndex = 0;
-
-      function showNextWord() {
-        if (currentWordIndex >= words.length) {
-          currentWordIndex = 0;
-        }
-
-        setAnimatedText(words[currentWordIndex]);
-        currentWordIndex++;
-
-        setTimeout(showNextWord, 1000); // Adjust speed here (1000 = 1 second)
-      }
-
-      showNextWord();
-    });
+    const thirdSection = document.querySelector(".thirdsection");
+    for (let i = 0; i < 20; i++) {
+      const meteor = document.createElement("div");
+      meteor.classList.add("meteor");
+      meteor.style.top = `${Math.random() * 100}vh`;
+      meteor.style.left = `${Math.random() * 100}vw`;
+      meteor.style.animationDelay = `${Math.random() * 5}s`;
+      meteor.style.animationDuration = `${Math.random() * 3 + 2}s`;
+      thirdSection.appendChild(meteor);
+    }
   }, []);
 
   return (
@@ -58,8 +48,7 @@ function Home() {
       <section className="secondsection">
         <div className="secondleftsection">
           <p>
-            Hi there! I'm Yash Patel, a third-year IT student with a passion
-            for{" "}
+            Hi there! I'm Yash Patel, a third-year IT student with a passion for{" "}
             <span className="paragraph">
               full-stack development, UI/UX design, and data analysis.
             </span>{" "}
@@ -72,9 +61,7 @@ function Home() {
           </p>
           <button className="visitsitelink">
             <a href="https://drive.google.com/file/d/15iSkhA1iLcObvNfeFXXCoE_cetLnU2vX/view">
-              <b>
-                Download & View CV <FaExternalLinkAlt />
-              </b>
+              <b>Download & View CV <FaExternalLinkAlt/></b>
             </a>
           </button>
         </div>
@@ -92,49 +79,49 @@ function Home() {
           <div className="card">
             <div className="card-content">
               <img src={htmlLogo} alt="HTML" />
-              <p className="animated-text">{animatedText}</p>
+              <p>HTML</p>
             </div>
           </div>
           <div className="card">
             <div className="card-content">
               <img src={cssLogo} alt="CSS" />
-              <p className="animated-text">{animatedText}</p>
+              <p>CSS</p>
             </div>
           </div>
           <div className="card">
             <div className="card-content">
               <img src={jsLogo} alt="JavaScript" />
-              <p className="animated-text">{animatedText}</p>
+              <p>JavaScript</p>
             </div>
           </div>
           <div className="card">
             <div className="card-content">
               <img src={reactLogo} alt="React" />
-              <p className="animated-text">{animatedText}</p>
+              <p>React</p>
             </div>
           </div>
           <div className="card">
             <div className="card-content">
               <img src={mongologo} alt="MongoDB" />
-              <p className="animated-text">{animatedText}</p>
+              <p>MongoDB</p>
             </div>
           </div>
           <div className="card">
             <div className="card-content">
               <img src={nodelogo} alt="Node.js" />
-              <p className="animated-text">{animatedText}</p>
+              <p>Node.js</p>
             </div>
           </div>
           <div className="card">
             <div className="card-content">
               <img src={pythonlogo} alt="Python" />
-              <p className="animated-text">{animatedText}</p>
+              <p>Python</p>
             </div>
           </div>
           <div className="card">
             <div className="card-content">
               <img src={gitlogo} alt="Git" />
-              <p className="animated-text">{animatedText}</p>
+              <p>Git</p>
             </div>
           </div>
         </div>
