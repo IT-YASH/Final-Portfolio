@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 // import "../App.css";
-import "../Css/Home.css"
+import "../Css/Home.css";
 import htmlLogo from "../images/html.png";
 import cssLogo from "../images/css.png";
 import jsLogo from "../images/js.png";
@@ -24,17 +24,32 @@ function Home() {
       meteor.style.animationDuration = `${Math.random() * 3 + 2}s`;
       thirdSection.appendChild(meteor);
     }
+
+    const words = document.querySelectorAll(".word");
+    words.forEach((word, index) => {
+      word.style.animationDelay = `${index * 0.5}s`;
+    });
   }, []);
+
+  const splitText = (text) => {
+    return text.split(" ").map((word, index) => (
+      <span key={index} className="word">
+        {word}&nbsp;
+      </span>
+    ));
+  };
 
   return (
     <>
       <section className="firstsection">
         <div className="leftsection">
-          <h2 className="lefthello">Hello,</h2>
+          <h2 className="lefthello">{splitText("Hello,")}</h2>
           <h2 className="leftyash">
-            i'm <span className="Yashcolor">Yash</span> Patel
+            {splitText("i'm")}
+            <span className="Yashcolor">{splitText("Yash")}</span>
+            {splitText("Patel")}
           </h2>
-          <h1 className="webcolor">Web Developer</h1>
+          <h1 className="webcolor">{splitText("Web Developer")}</h1>
         </div>
         <div className="rightsection">
           <img src={images} alt="firstsection images" />
@@ -61,7 +76,9 @@ function Home() {
           </p>
           <button className="visitsitelink">
             <a href="https://drive.google.com/file/d/15iSkhA1iLcObvNfeFXXCoE_cetLnU2vX/view">
-              <b>Download & View CV <FaExternalLinkAlt/></b>
+              <b>
+                Download & View CV <FaExternalLinkAlt />
+              </b>
             </a>
           </button>
         </div>
@@ -76,54 +93,23 @@ function Home() {
 
       <section className="thirdsection">
         <div className="container">
-          <div className="card">
-            <div className="card-content">
-              <img src={htmlLogo} alt="HTML" />
-              <p>HTML</p>
+          {[
+            { logo: htmlLogo, name: "HTML" },
+            { logo: cssLogo, name: "CSS" },
+            { logo: jsLogo, name: "JavaScript" },
+            { logo: reactLogo, name: "React" },
+            { logo: nodelogo, name: "Node.js" },
+            { logo: pythonlogo, name: "Python" },
+            { logo: gitlogo, name: "Git" },
+            { logo: mongologo, name: "MongoDB" },
+          ].map((tech, index) => (
+            <div className="card" key={index}>
+              <div className="card-content">
+                <img src={tech.logo} alt={tech.name} />
+                <p>{tech.name}</p>
+              </div>
             </div>
-          </div>
-          <div className="card">
-            <div className="card-content">
-              <img src={cssLogo} alt="CSS" />
-              <p>CSS</p>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card-content">
-              <img src={jsLogo} alt="JavaScript" />
-              <p>JavaScript</p>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card-content">
-              <img src={reactLogo} alt="React" />
-              <p>React</p>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card-content">
-              <img src={mongologo} alt="MongoDB" />
-              <p>MongoDB</p>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card-content">
-              <img src={nodelogo} alt="Node.js" />
-              <p>Node.js</p>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card-content">
-              <img src={pythonlogo} alt="Python" />
-              <p>Python</p>
-            </div>
-          </div>
-          <div className="card">
-            <div className="card-content">
-              <img src={gitlogo} alt="Git" />
-              <p>Git</p>
-            </div>
-          </div>
+          ))}
         </div>
       </section>
     </>
