@@ -49,7 +49,7 @@ function Home() {
             <span className="Yashcolor">{splitText("Yash")}</span>
             {splitText("Patel")}
           </h2>
-          <h1 className="webcolor">{splitText("Web Developer")}</h1>
+          <h1 className="webcolor">{splitText("Full Stack Developer")}</h1>
         </div>
         <div className="rightsection">
           <img src={images} alt="firstsection images" />
@@ -57,7 +57,8 @@ function Home() {
       </section>
 
       <h1 className="centered-text">
-        LET ME <span className="introcolor">INTRODUCE MYSELF</span>
+        {splitText("LET ME")}{" "}
+        <span className="introcolor">{splitText("INTRODUCE MYSELF")} </span>
       </h1>
 
       <section className="secondsection">
@@ -88,7 +89,8 @@ function Home() {
       </section>
 
       <h1 className="centered-text">
-        <span className="introcolor">Professional </span>Skillset
+        <span className="introcolor">{splitText("Professional")} </span>
+        {splitText("Skillset")}
       </h1>
 
       <section className="thirdsection">
@@ -98,7 +100,7 @@ function Home() {
             { logo: cssLogo, name: "CSS" },
             { logo: jsLogo, name: "JavaScript" },
             { logo: reactLogo, name: "React" },
-            { logo: nodelogo, name: "Node.js" },
+            { logo: nodelogo, name: "NodeJS" },
             { logo: pythonlogo, name: "Python" },
             { logo: gitlogo, name: "Git" },
             { logo: mongologo, name: "MongoDB" },

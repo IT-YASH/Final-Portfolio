@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "../Css/Navbar.css";
-import { FaHome, FaUserAlt, FaProjectDiagram, FaBriefcase, FaEnvelope } from "react-icons/fa";
+import { FaHome, FaUserAlt, FaProjectDiagram, FaBriefcase, FaEnvelope, FaAward} from "react-icons/fa";
 
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -66,6 +66,24 @@ function Navbar() {
                 <FaEnvelope className="nav-icon" />
                 Connect with Me
               </NavLink>
+            </li>
+            <li className="dropdown">
+              <NavLink to="/others" className={({ isActive }) => (isActive ? "active" : "")}>
+                <FaAward className="nav-icon" />
+                Others
+              </NavLink>
+              <ul className="dropdown-menu">
+                <li>
+                  <NavLink to="/achievements">
+                    Achievements →
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink to="/memories">
+                    Memories →
+                  </NavLink>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>

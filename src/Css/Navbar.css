@@ -1,3 +1,4 @@
+/* Reset and basic styles */
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   margin: 0;
@@ -5,16 +6,7 @@ body {
   transition: background-color 0.3s, color 0.3s;
 }
 
-body.light {
-  background-color: #ffffff;
-  color: #000000;
-}
-
-body.dark {
-  background-color: #121212;
-  color: #ffffff;
-}
-
+/* Header styles */
 .header {
   position: fixed;
   top: 0;
@@ -57,8 +49,9 @@ body.dark {
   height: 1px;
 }
 
+/* Navigation styles */
 nav {
-  font-size: 22px;
+  font-size: 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -78,6 +71,7 @@ nav ul {
 nav ul li {
   list-style: none;
   margin: 4px 23px;
+  position: relative;
 }
 
 nav ul li a {
@@ -95,7 +89,7 @@ nav ul li a .nav-icon {
 nav ul li a::before {
   content: "";
   position: absolute;
-  bottom: -5px;
+  bottom: -8px;
   left: 0;
   border-radius: 30px;
   height: 3.5px;
@@ -107,14 +101,50 @@ nav ul li a::before {
 nav ul li a:hover::before,
 nav ul li a.active::before {
   width: 100%;
-  height: 4px;
+  height: 4.5px;
   background-color: #a855f7;
 }
 
-.right {
+nav .right {
   display: flex;
 }
 
+/* Dropdown menu styles */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #111827;
+  padding: 5px 0;
+  border-radius: 5px;
+  z-index: 1000;
+  min-width: 150px;
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu li a {
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #333;
+}
+
+/* Toggle button styles */
 .toggle-btn {
   position: relative;
   width: 90px;
@@ -158,6 +188,7 @@ nav ul li a.active::before {
   opacity: 0;
 }
 
+/* Dark mode styles */
 body.dark .toggle-btn {
   background-color: #333;
   color: #fff;
@@ -175,9 +206,10 @@ body.dark .toggle-btn .moon-icon {
   opacity: 1;
 }
 
+/* Responsive styles */
 @media only screen and (max-width: 900px) {
   .header {
-    padding: 30px 0px;
+    padding: 20px 10px;
   }
 
   nav {
@@ -186,7 +218,56 @@ body.dark .toggle-btn .moon-icon {
     justify-content: center;
   }
 
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   nav ul li {
     margin: 4px 10px;
+  }
+
+  .toggle-btn {
+    width: 70px;
+    height: 30px;
+  }
+
+  .toggle-btn .toggle-thumb {
+    width: 25px;
+    height: 25px;
+    top: 2.5px;
+    left: 2.5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    padding: 15px 5px;
+  }
+
+  nav {
+    font-size: 16px;
+    justify-content: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul li {
+    margin: 4px 5px;
+  }
+
+  .toggle-btn {
+    width: 60px;
+    height: 25px;
+  }
+
+  .toggle-btn .toggle-thumb {
+    width: 20px;
+    height: 20px;
+    top: 2.5px;
+    left: 2.5px;
   }
 }
