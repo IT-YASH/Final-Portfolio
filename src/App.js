@@ -7,11 +7,13 @@ import About from "./components/About";
 import Project from "./components/Project";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import StarryBackground from "./components/StarryBackground";
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <StarryBackground />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

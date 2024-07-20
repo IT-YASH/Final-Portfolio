@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="81.28mm" height="81.28mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 8128 8128"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#A45CE2;stroke-width:59.27;stroke-miterlimit:22.9256}
+    .str2 {stroke:#FEC635;stroke-width:59.27;stroke-miterlimit:22.9256}
+    .str0 {stroke:#1C1B17;stroke-width:16.93;stroke-miterlimit:22.9256}
+    .fil1 {fill:none}
+    .fil0 {fill:#1C1B17}
+   ]]>
+  </style>
+   <mask id="id0">
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id1)" x="2404.54" y="1769.54" width="1515.52" height="1253.06"/>
+   </mask>
+   <mask id="id2">
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id3)" x="2980.27" y="1769.53" width="931.55" height="778.93"/>
+   </mask>
+   <mask id="id4">
+  <linearGradient id="id5" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id5)" x="2407.23" y="1684.87" width="386.77" height="132.79"/>
+   </mask>
+   <mask id="id6">
+  <linearGradient id="id7" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id7)" x="3843.87" y="1769.53" width="931.55" height="778.93"/>
+   </mask>
+   <mask id="id8">
+  <linearGradient id="id9" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id9)" x="2734.74" y="1684.87" width="213" height="186.26"/>
+   </mask>
+   <mask id="id10">
+  <linearGradient id="id11" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id11)" x="3852.34" y="1769.54" width="1515.52" height="1253.06"/>
+   </mask>
+   <mask id="id12">
+  <linearGradient id="id13" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id13)" x="2277.54" y="1820.34" width="1562.34" height="1287.58"/>
+   </mask>
+   <mask id="id14">
+  <linearGradient id="id15" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id15)" x="3490.68" y="1866.89" width="1924.16" height="4167.56"/>
+   </mask>
+   <mask id="id16">
+  <linearGradient id="id17" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id17)" x="4969.94" y="1684.87" width="386.77" height="132.79"/>
+   </mask>
+   <mask id="id18">
+  <linearGradient id="id19" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id19)" x="4816.2" y="1684.87" width="213" height="186.26"/>
+   </mask>
+   <mask id="id20">
+  <linearGradient id="id21" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id21)" x="1976.98" y="1810.31" width="386.77" height="132.79"/>
+   </mask>
+   <mask id="id22">
+  <linearGradient id="id23" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id23)" x="5359.4" y="1865.34" width="386.77" height="132.79"/>
+   </mask>
+   <mask id="id24">
+  <linearGradient id="id25" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id25)" x="1833.04" y="1765.3" width="213" height="186.26"/>
+   </mask>
+   <mask id="id26">
+  <linearGradient id="id27" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id27)" x="1828.8" y="1670.61" width="386.77" height="132.79"/>
+   </mask>
+   <mask id="id28">
+  <linearGradient id="id29" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id29)" x="3862.37" y="1812.7" width="2202.88" height="1811.03"/>
+   </mask>
+   <mask id="id30">
+  <linearGradient id="id31" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id31)" x="5681.14" y="1803.4" width="213" height="186.26"/>
+   </mask>
+   <mask id="id32">
+  <linearGradient id="id33" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id33)" x="5517.24" y="1721.41" width="386.77" height="132.79"/>
+   </mask>
+   <mask id="id34">
+  <linearGradient id="id35" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id35)" x="1727.2" y="1812.7" width="1837.26" height="1512.24"/>
+   </mask>
+   <mask id="id36">
+  <linearGradient id="id37" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id37)" x="3862.36" y="3564.47" width="88.73" height="2164.34"/>
+   </mask>
+   <mask id="id38">
+  <linearGradient id="id39" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id39)" x="3962.4" y="3598.34" width="101.59" height="2175.92"/>
+   </mask>
+   <mask id="id40">
+  <linearGradient id="id41" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id41)" x="4334.94" y="3327.4" width="101.59" height="2650.06"/>
+   </mask>
+   <mask id="id42">
+  <linearGradient id="id43" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id43)" x="3547.54" y="5715" width="516.45" height="452.45"/>
+   </mask>
+   <mask id="id44">
+  <linearGradient id="id45" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id45)" x="4038.6" y="5918.2" width="397.93" height="347.13"/>
+   </mask>
+   <mask id="id46">
+  <linearGradient id="id47" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id47)" x="3683" y="6138.34" width="414.86" height="126.99"/>
+   </mask>
+   <mask id="id48">
+  <linearGradient id="id49" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id49)" x="3683" y="6025.91" width="178.3" height="171.69"/>
+   </mask>
+   <mask id="id50">
+  <linearGradient id="id51" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id51)" x="3505.2" y="3098.8" width="262.46" height="226.14"/>
+   </mask>
+   <mask id="id52">
+  <linearGradient id="id53" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id53)" x="4047.07" y="3327.4" width="347.13" height="270.93"/>
+   </mask>
+   <mask id="id54">
+  <linearGradient id="id55" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id55)" x="4106.34" y="3242.74" width="440.26" height="3132.66"/>
+   </mask>
+   <mask id="id56">
+  <linearGradient id="id57" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id57)" x="4508.51" y="3390.9" width="440.26" height="3132.66"/>
+   </mask>
+   <mask id="id58">
+  <linearGradient id="id59" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id59)" x="4123.27" y="6307.67" width="414.86" height="126.99"/>
+   </mask>
+   <mask id="id60">
+  <linearGradient id="id61" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id61)" x="4478.87" y="6254.51" width="178.3" height="171.69"/>
+   </mask>
+   <mask id="id62">
+  <linearGradient id="id63" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id63)" x="4453.47" y="1828.8" width="1820.33" height="1473.2"/>
+   </mask>
+   <mask id="id64">
+  <linearGradient id="id65" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id65)" x="5036.51" y="4174.06" width="1237.29" height="1005.08"/>
+   </mask>
+   <mask id="id66">
+  <linearGradient id="id67" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id67)" x="5006.28" y="3905.42" width="865.69" height="706.73"/>
+   </mask>
+   <mask id="id68">
+  <linearGradient id="id69" gradientUnits="userSpaceOnUse" x1="3162.3" y1="2293.89" x2="5715.72" y2="2293.9">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id69)" x="6214.52" y="2533.14" width="59.3" height="1700.18"/>
+   </mask>
+   <mask id="id70">
+  <linearGradient id="id71" gradientUnits="userSpaceOnUse" x1="3162.3" y1="2293.89" x2="5715.72" y2="2293.9">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id71)" x="5816.6" y="2826.79" width="59.3" height="1203.57"/>
+   </mask>
+   <mask id="id72">
+  <linearGradient id="id73" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id73)" x="4868.38" y="2310.9" width="1435.06" height="1163.87"/>
+   </mask>
+   <mask id="id74">
+  <linearGradient id="id75" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id75)" x="5029.2" y="4593.74" width="190.5" height="585.4"/>
+   </mask>
+   <mask id="id76">
+  <linearGradient id="id77" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id77)" x="6068.45" y="1828.8" width="205.35" height="546.39"/>
+   </mask>
+   <mask id="id78">
+  <linearGradient id="id79" gradientUnits="userSpaceOnUse" x1="3162.3" y1="1799.17" x2="5715.72" y2="2788.62">
+   <stop offset="0" style="stop-opacity:0.690196; stop-color:white"/>
+   <stop offset="0.294118" style="stop-opacity:0.698039; stop-color:white"/>
+   <stop offset="0.478431" style="stop-opacity:0.705882; stop-color:white"/>
+   <stop offset="0.490196" style="stop-opacity:0.521569; stop-color:white"/>
+   <stop offset="0.65098" style="stop-opacity:0.960784; stop-color:white"/>
+   <stop offset="0.752941" style="stop-opacity:0.945098; stop-color:white"/>
+   <stop offset="0.878431" style="stop-opacity:0.92549; stop-color:white"/>
+   <stop offset="0.960784" style="stop-opacity:0.992157; stop-color:white"/>
+   <stop offset="1" style="stop-opacity:0.568627; stop-color:white"/>
+  </linearGradient>
+    <rect style="fill:url(#id79)" x="5805.65" y="2591.1" width="372.52" height="310.8"/>
+   </mask>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0 str0" x="16.35" y="4.03" width="8128" height="8119.53"/>
+  <line class="fil1 str1" style="mask:url(#id0)" x1="3890.43" y1="2992.97" x2="2434.17" y2= "1799.17" />
+  <line class="fil1 str2" style="mask:url(#id2)" x1="3009.9" y1="1799.16" x2="3882.19" y2= "2518.83" />
+  <line class="fil1 str2" style="mask:url(#id4)" x1="2436.86" y1="1788.03" x2="2764.37" y2= "1714.5" />
+  <line class="fil1 str1" style="mask:url(#id6)" x1="4745.79" y1="1799.16" x2="3873.5" y2= "2518.83" />
+  <line class="fil1 str2" style="mask:url(#id8)" x1="2764.37" y1="1714.5" x2="2918.11" y2= "1841.5" />
+  <line class="fil1 str2" style="mask:url(#id10)" x1="3881.97" y1="2992.97" x2="5338.23" y2= "1799.17" />
+  <line class="fil1 str2" style="mask:url(#id12)" x1="2307.17" y1="1849.97" x2="3810.25" y2= "3078.29" />
+  <polyline class="fil1 str1" style="mask:url(#id14)" points="5385.21,1896.52 3520.31,3420.52 3553.49,6004.82 3831.17,5753.1 3831.17,5612.49 "/>
+  <line class="fil1 str1" style="mask:url(#id16)" x1="5327.08" y1="1788.03" x2="4999.57" y2= "1714.5" />
+  <line class="fil1 str2" style="mask:url(#id18)" x1="4999.57" y1="1714.5" x2="4845.83" y2= "1841.5" />
+  <line class="fil1 str1" style="mask:url(#id20)" x1="2006.61" y1="1913.47" x2="2334.12" y2= "1839.94" />
+  <line class="fil1 str2" style="mask:url(#id22)" x1="5716.54" y1="1968.5" x2="5389.03" y2= "1894.97" />
+  <line class="fil1 str2" style="mask:url(#id24)" x1="1862.67" y1="1794.93" x2="2016.41" y2= "1921.93" />
+  <line class="fil1 str2" style="mask:url(#id26)" x1="1858.43" y1="1773.77" x2="2185.94" y2= "1700.24" />
+  <line class="fil1 str2" style="mask:url(#id28)" x1="6035.62" y1="1842.33" x2="3892" y2= "3594.1" />
+  <line class="fil1 str1" style="mask:url(#id30)" x1="5864.51" y1="1833.03" x2="5710.77" y2= "1960.03" />
+  <line class="fil1 str1" style="mask:url(#id32)" x1="5874.38" y1="1824.57" x2="5546.87" y2= "1751.04" />
+  <line class="fil1 str1" style="mask:url(#id34)" x1="1756.83" y1="1842.33" x2="3534.83" y2= "3295.31" />
+  <line class="fil1 str2" style="mask:url(#id36)" x1="3891.99" y1="3594.1" x2="3921.46" y2= "5699.18" />
+  <line class="fil1 str2" style="mask:url(#id38)" x1="3992.03" y1="3627.97" x2="4034.36" y2= "5744.63" />
+  <line class="fil1 str1" style="mask:url(#id40)" x1="4364.57" y1="3357.03" x2="4406.9" y2= "5947.83" />
+  <line class="fil1 str2" style="mask:url(#id42)" x1="4034.36" y1="5744.63" x2="3577.17" y2= "6137.82" />
+  <line class="fil1 str2" style="mask:url(#id44)" x1="4406.9" y1="5947.83" x2="4068.23" y2= "6235.7" />
+  <line class="fil1 str1" style="mask:url(#id46)" x1="4068.23" y1="6235.7" x2="3712.63" y2= "6167.97" />
+  <line class="fil1 str1" style="mask:url(#id48)" x1="3712.63" y1="6167.97" x2="3831.67" y2= "6055.54" />
+  <line class="fil1 str2" style="mask:url(#id50)" x1="3534.83" y1="3295.31" x2="3738.03" y2= "3128.43" />
+  <line class="fil1 str2" style="mask:url(#id52)" x1="4364.57" y1="3357.03" x2="4076.7" y2= "3568.7" />
+  <polyline class="fil1 str2" style="mask:url(#id54)" points="4483.1,3272.37 4516.97,6032.5 4135.97,6345.77 "/>
+  <polyline class="fil1 str2" style="mask:url(#id56)" points="4885.27,3420.53 4919.14,6180.66 4538.14,6493.93 "/>
+  <line class="fil1 str1" style="mask:url(#id58)" x1="4508.5" y1="6405.03" x2="4152.9" y2= "6337.3" />
+  <line class="fil1 str1" style="mask:url(#id60)" x1="4508.5" y1="6396.57" x2="4627.54" y2= "6284.14" />
+  <line class="fil1 str1" style="mask:url(#id62)" x1="4483.1" y1="3272.37" x2="6244.17" y2= "1858.43" />
+  <line class="fil1 str2" style="mask:url(#id64)" x1="5066.14" y1="5149.51" x2="6244.17" y2= "4203.69" />
+  <line class="fil1 str1" style="mask:url(#id66)" x1="5035.91" y1="4582.52" x2="5842.34" y2= "3935.05" />
+  <line class="fil1 str1" style="mask:url(#id68)" x1="6244.17" y1="2562.77" x2="6244.17" y2= "4203.69" />
+  <line class="fil1 str2" style="mask:url(#id70)" x1="5846.25" y1="2856.42" x2="5846.25" y2= "4000.73" />
+  <line class="fil1 str2" style="mask:url(#id72)" x1="4898.01" y1="3445.14" x2="6273.81" y2= "2340.53" />
+  <polyline class="fil1 str1" style="mask:url(#id74)" points="5066.14,5149.51 5058.83,4728.63 5190.07,4623.37 "/>
+  <polyline class="fil1 str2" style="mask:url(#id76)" points="6244.17,1858.43 6244.17,2230.97 6098.08,2345.56 "/>
+  <line class="fil1 str1" style="mask:url(#id78)" x1="5835.28" y1="2872.27" x2="6148.54" y2= "2620.73" />
+ </g>
+</svg>

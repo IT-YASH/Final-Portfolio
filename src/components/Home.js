@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
-// import "../App.css";
 import "../Css/Home.css";
 import htmlLogo from "../images/html.png";
 import cssLogo from "../images/css.png";
@@ -43,7 +42,10 @@ function Home() {
     <>
       <section className="firstsection">
         <div className="leftsection">
-          <h2 className="lefthello">{splitText("Hello,")}</h2>
+          <h2 className="lefthello">
+            {splitText("Hello,")}
+            <span className="wave">👋</span>
+          </h2>
           <h2 className="leftyash">
             {splitText("i'm")}
             <span className="Yashcolor">{splitText("Yash")}</span>
