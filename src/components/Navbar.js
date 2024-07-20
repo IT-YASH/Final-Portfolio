@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import Logo from "../images/yp.png"
+import Logo from "../images/yp.png";
 import "../Css/Navbar.css";
 import {
   FaHome,
@@ -9,11 +9,14 @@ import {
   FaBriefcase,
   FaEnvelope,
   FaAward,
+  FaBars,
+  FaTimes
 } from "react-icons/fa";
 
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -39,18 +42,27 @@ function Navbar() {
     setTheme(theme === "light" ? "dark" : "light");
   };
 
+  const toggleSidebar = () => {
+    setSidebarOpen(!sidebarOpen);
+  };
+
+  const closeSidebar = () => {
+    setSidebarOpen(false);
+  };
+
   return (
     <header className={`header ${isScrolled ? "scrolled" : ""}`}>
       <nav>
         <div className="left">
-          <img src={Logo} className="yplogo" alt="logo" srcset="" />
+          <img src={Logo} className="yplogo" alt="logo" />
         </div>
-        <div className="right">
+        <div className={`right ${sidebarOpen ? "open" : ""}`}>
           <ul>
             <li>
               <NavLink
                 to="/"
                 className={({ isActive }) => (isActive ? "active" : "")}
+                onClick={closeSidebar}
               >
                 <FaHome className="nav-icon" />
                 Home
@@ -60,6 +72,7 @@ function Navbar() {
               <NavLink
                 to="/about"
                 className={({ isActive }) => (isActive ? "active" : "")}
+                onClick={closeSidebar}
               >
                 <FaUserAlt className="nav-icon" />
                 About
@@ -69,6 +82,7 @@ function Navbar() {
               <NavLink
                 to="/projects"
                 className={({ isActive }) => (isActive ? "active" : "")}
+                onClick={closeSidebar}
               >
                 <FaProjectDiagram className="nav-icon" />
                 Projects
@@ -78,6 +92,7 @@ function Navbar() {
               <NavLink
                 to="/experience"
                 className={({ isActive }) => (isActive ? "active" : "")}
+                onClick={closeSidebar}
               >
                 <FaBriefcase className="nav-icon" />
                 Experience
@@ -87,6 +102,7 @@ function Navbar() {
               <NavLink
                 to="/contact"
                 className={({ isActive }) => (isActive ? "active" : "")}
+                onClick={closeSidebar}
               >
                 <FaEnvelope className="nav-icon" />
                 Connect with Me
@@ -96,25 +112,29 @@ function Navbar() {
               <NavLink
                 to="/Home"
                 className={({ isActive }) => (isActive ? "active" : "")}
+                onClick={closeSidebar}
               >
                 <FaAward className="nav-icon" />
                 Others
               </NavLink>
               <ul className="dropdown-menu">
                 <li>
-                  <NavLink to="/achievements">Achievements →</NavLink>
+                  <NavLink to="/achievements" onClick={closeSidebar}>Achievements →</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/memories">Memories →</NavLink>
+                  <NavLink to="/memories" onClick={closeSidebar}>Memories →</NavLink>
                 </li>
               </ul>
             </li>
           </ul>
+          <button className="toggle-btn" onClick={toggleTheme}>
+            <div className="toggle-thumb"></div>
+            <span className="sun-icon">☀️</span>
+            <span className="moon-icon">🌙</span>
+          </button>
         </div>
-        <button className="toggle-btn" onClick={toggleTheme}>
-          <div className="toggle-thumb"></div>
-          <span className="sun-icon">☀️</span>
-          <span className="moon-icon">🌙</span>
+        <button className="menu-btn" onClick={toggleSidebar}>
+          {sidebarOpen ? <FaTimes /> : <FaBars />}
         </button>
       </nav>
     </header>

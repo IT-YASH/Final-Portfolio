@@ -78,7 +78,7 @@ function Home() {
             endless possibilities in the dynamic field of IT.
           </p>
           <button className="visitsitelink">
-            <a href="https://drive.google.com/file/d/15iSkhA1iLcObvNfeFXXCoE_cetLnU2vX/view">
+            <a href="https://drive.google.com/file/d/1KSLx4hY_DOM8iFbkIslk5bAEKviHyX2p/view?usp=sharing">
               <b>
                 Download & View CV <FaExternalLinkAlt />
               </b>

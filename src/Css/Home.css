@@ -262,3 +262,160 @@
 .fadeInUp {
   animation: fadeInUp 0.5s forwards;
 }
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .firstsection {
+    margin-top: 20%;
+    padding: 40px 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftsection {
+    font-size: 1.8rem;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .rightsection img {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .about-firstsection,
+  .about-secondsection {
+    flex-direction: column;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .about-leftsection,
+  .about-secleftsection,
+  .about-secrightsection {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .know-who,
+  .education {
+    font-size: 1.8rem;
+  }
+
+  .sigmainfo,
+  .schoolinfo {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .firstsection {
+    margin-top: 30%;
+    padding: 30px 0px;
+  }
+
+  .leftsection {
+    font-size: 1.5rem;
+  }
+
+  .lefthello {
+    font-size: 2rem;
+  }
+
+  .leftyash {
+    font-size: 1.5rem;
+  }
+
+  .webcolor {
+    font-size: 2rem;
+  }
+
+  .aboutpage {
+    padding: 0 10px;
+  }
+
+  .about-firstsection,
+  .about-secondsection {
+    padding: 0 10px;
+  }
+
+  .secondsection {
+    padding: 30px 0px;
+    flex-direction: column;
+  }
+
+  .secondleftsection {
+    font-size: 1rem;
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+  .secondrightsection {
+    width: 100%;
+  }
+
+  .thirdsection {
+    padding-top: 20px;
+  }
+
+  .card {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
+
+  .card img {
+    max-width: 30%;
+    max-height: 30%;
+  }
+
+  .card p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .firstsection {
+    margin-top: 40%;
+    padding: 20px 0px;
+  }
+
+  .leftsection {
+    font-size: 1.2rem;
+  }
+
+  .lefthello {
+    font-size: 1.5rem;
+  }
+
+  .leftyash {
+    font-size: 1.2rem;
+  }
+
+  .webcolor {
+    font-size: 1.5rem;
+  }
+
+  .secondsection {
+    padding: 20px 0px;
+  }
+
+  .secondleftsection {
+    font-size: 0.9rem;
+  }
+
+  .card {
+    width: 120px;
+    height: 120px;
+  }
+
+  .card img {
+    max-width: 25%;
+    max-height: 25%;
+  }
+
+  .card p {
+    font-size: 0.7rem;
+  }
+}

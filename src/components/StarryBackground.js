@@ -22,13 +22,13 @@ const StarryBackground = () => {
         star.classList.add("twinkle");
         setTimeout(() => {
           star.classList.remove("twinkle");
-          star.style.top = `${Math.random() * 100}vh`;
-          star.style.left = `${Math.random() * 100}vw`;
+          star.style.top = `${Math.random() * 200}vh`;
+          star.style.left = `${Math.random() * 200}vw`;
         }, 1000);
       });
     };
 
-    for (let i = 0; i < 250; i++) {
+    for (let i = 0; i < 300; i++) {
       createStar(Math.random() * window.innerWidth, Math.random() * window.innerHeight);
     }
 
