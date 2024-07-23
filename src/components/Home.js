@@ -77,7 +77,7 @@ function Home() {
             results. Always eager to learn and adapt, I'm excited about the
             endless possibilities in the dynamic field of IT.
           </p>
-          <button className="visitsitelink">
+          <button className="home_visitsitelink">
             <a href="https://drive.google.com/file/d/1KSLx4hY_DOM8iFbkIslk5bAEKviHyX2p/view?usp=sharing">
               <b>
                 Download & View CV <FaExternalLinkAlt />

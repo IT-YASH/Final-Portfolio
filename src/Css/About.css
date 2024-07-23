@@ -1,0 +1,196 @@
+.aboutpage {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.about-secondsection {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.about-secleftsection {
+  padding-right: 100px;
+}
+
+.about-secrightsection {
+  align-items: center;
+}
+
+.about-leftsection {
+  padding-right: 100px;
+}
+
+.about-firstsection {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.know-who,
+.education {
+  font-size: 2rem;
+}
+
+.i-m,
+.yashpatel,
+.action {
+  color: #a855f7;
+}
+
+.action,
+.sigmauniversity,
+.Diplomasigma,
+.school {
+  color: #a855f7;
+}
+
+.sigmainfo,
+.schoolinfo {
+  font-size: 0.9rem;
+}
+
+/* Large Devices (Desktops, 1200px and up) */
+/* Large Devices (Desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  .aboutpage {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  .about-leftsection,
+  .about-rightsection,
+  .about-secleftsection,
+  .about-secrightsection {
+    padding-right: 80px;
+  }
+
+  .about-firstsection {
+    margin-top: 150px;
+  }
+
+  .know-who,
+  .education {
+    font-size: 1.8rem;
+  }
+
+  .sigmainfo,
+  .schoolinfo {
+    font-size: 0.85rem;
+  }
+}
+
+/* Medium Devices (Tablets, 992px and up) */
+@media (max-width: 992px) {
+  .aboutpage {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .about-secondsection {
+    flex-direction: column;
+  }
+
+  .about-leftsection,
+  .about-rightsection,
+  .about-secleftsection,
+  .about-secrightsection {
+    padding-right: 60px;
+  }
+
+  .about-firstsection {
+    margin-top: 100px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .know-who,
+  .education {
+    font-size: 1.6rem;
+  }
+
+  .sigmainfo,
+  .schoolinfo {
+    font-size: 0.8rem;
+  }
+}
+
+/* Small Devices (Phones, 768px and up) */
+@media (max-width: 768px) {
+  .aboutpage {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .about-secondsection {
+    flex-direction: column;
+  }
+
+  .about-leftsection,
+  .about-rightsection,
+  .about-secleftsection,
+  .about-secrightsection {
+    padding-right: 30px;
+  }
+
+  .about-firstsection {
+    margin-top: 80px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .know-who,
+  .education {
+    font-size: 1.4rem;
+  }
+
+  .sigmainfo,
+  .schoolinfo {
+    font-size: 0.75rem;
+  }
+}
+
+/* Extra Small Devices (Phones, 375px and up) */
+@media (max-width: 375px) {
+  .about-secondsection {
+    flex-direction: column-reverse;
+  }
+
+  .about-secrightsection img {
+    width: 90%;
+    padding-left: 25px;
+  }
+
+  .education {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .about-firstsection {
+    margin-top: 150px;
+    flex-direction: column-reverse;
+  }
+
+  .about-leftsection {
+    width: auto;
+    text-align: left;
+  }
+
+  .about-rightsection {
+    width: auto;
+    text-align: center;
+  }
+
+  .about-rightsection img {
+    width: 80%;
+  }
+
+  .know-who,
+  .education {
+    font-size: 2rem;
+  }
+
+  .sigmainfo,
+  .schoolinfo {
+    font-size: 0.7rem;
+  }
+}

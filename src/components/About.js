@@ -1,4 +1,4 @@
-import "../App.css";
+import "../Css/About.css";
 import working1 from "../images/working.png";
 import Working2 from "../images/working1.png";
 
@@ -51,7 +51,7 @@ function About() {
               After completing my diploma, I continued my education at Sigma
               Institute & Polytechnic, currently pursuing a Bachelor of
               Engineering in Information Technology. I am in my 7th semester
-              with a current CGPA of 7.91, and I am on track to graduate in
+              with a current CGPA of 8.52, and I am on track to graduate in
               2025. My coursework and projects have further deepened my
               knowledge and skills in the IT field.
             </div>

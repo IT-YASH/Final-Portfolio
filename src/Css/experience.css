@@ -34,20 +34,18 @@
   padding: 20px;
   margin: 20px;
   width: 40%;
-  box-shadow: 0 15px 30px rgba(177, 6, 230, 0.3);
   transition: transform 0.3s, box-shadow 0.3s;
   opacity: 0;
   animation: slideInUp 0.8s ease forwards;
 }
 
 .experience-card:hover {
+  box-shadow: 2px 10px 30px rgb(96, 25, 117);
   transform: translateY(-10px);
-  box-shadow: 0 20px 35px white;
 }
 
 .experience-icon {
-  max-width: 50px;
-  margin-bottom: 15px;
+  width: 35%;
   animation: bounce 2s infinite;
 }
 

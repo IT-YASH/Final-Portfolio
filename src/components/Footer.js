@@ -31,21 +31,21 @@ function Footer() {
           <FaTwitter />
         </a>
         <a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/_yash_2112_?igsh=bnJtNG9kdWhqMWk3&utm_source=qr"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaInstagram />
         </a>
         <a
-          href="https://www.instagram.com"
+          href="https://github.com/IT-YASH"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaGithub />
         </a>
         <a
-          href="https://www.instagram.com"
+          href="https://github.com/IT-YASH"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -53,7 +53,7 @@ function Footer() {
         </a>
       </div>
       <div className="footerlast">
-        <div className="designby">Designed by Yash Patel</div>
+        <div className="designby">Designed by Yash Patel & Devansh Varia</div>
         <div className="Copyright">Copyright © 2003</div>
       </div>
     </footer>

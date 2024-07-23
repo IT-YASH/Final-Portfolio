@@ -33,7 +33,7 @@ const Contact = () => {
   return (
     <div className="contact-section">
       <div className="contact-left">
-        <img src={Contactlogo} className="profile-vector" alt="" srcset="" /> 
+        <img src={Contactlogo} className="profile-vector" alt="" srcSet="" /> 
       </div>
       <div className="contact-right">
         <h2 className="section-title">Connect with Me</h2>

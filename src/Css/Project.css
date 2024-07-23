@@ -25,6 +25,7 @@
 }
 
 .projectimage {
+  object-fit:contain;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -33,7 +34,6 @@
 
 .projectimage img {
   max-width: 100%;
-  height: auto;
   border-radius: 10px;
 }
 
@@ -66,4 +66,22 @@
 
 .visitsitelink:hover {
   background-color: #9333ea;
+}
+
+
+@media( max-width: 375px ){
+
+.Projectsection{
+  display: flex;
+  flex-direction: row;
+}
+
+.visitsitelink a{
+  font-size: 11px;
+}
+
+.visitsitelink{
+  width: 95px;
+  height: 40px;
+}
 }
