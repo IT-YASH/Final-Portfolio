@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaExternalLinkAlt, FaStar, FaRocket, FaPlus } from "react-icons/fa";
 import "../Css/Home.css";
 import htmlLogo from "../images/html.png";
 import cssLogo from "../images/css.png";
@@ -41,6 +41,9 @@ function Home() {
   return (
     <>
       <section className="firstsection">
+        <div className="home-background-icon home-star-icon">
+          <FaStar />
+        </div>
         <div className="leftsection">
           <h2 className="lefthello">
             {splitText("Hello,")}
@@ -59,6 +62,9 @@ function Home() {
       </section>
 
       <h1 className="centered-text">
+        <div className="home-background-icon home-plus-icon">
+          <FaPlus />
+        </div>
         {splitText("LET ME")}{" "}
         <span className="introcolor">{splitText("INTRODUCE MYSELF")} </span>
       </h1>
@@ -91,6 +97,9 @@ function Home() {
       </section>
 
       <h1 className="centered-text">
+        <div className="home-background-icon home-rocket-icon">
+          <FaRocket />
+        </div>
         <span className="introcolor">{splitText("Professional")} </span>
         {splitText("Skillset")}
       </h1>

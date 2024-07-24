@@ -8,6 +8,7 @@ import Project from "./components/Project";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import StarryBackground from "./components/StarryBackground";
+import Achievements from "./components/Achievements"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/projects" element={<Project />} />
         <Route path="/experience" element={<Experience />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/achievements" element={<Achievements />} />
       </Routes>
       <Footer />
     </Router>

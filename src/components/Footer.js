@@ -6,7 +6,7 @@ import {
   FaTwitter,
   FaInstagram,
   FaGithub,
-  FaLinkedinIn,
+  FaLinkedinIn
 } from "react-icons/fa";
 
 function Footer() {
@@ -45,7 +45,7 @@ function Footer() {
           <FaGithub />
         </a>
         <a
-          href="https://github.com/IT-YASH"
+          href="https://www.linkedin.com/in/yash-patel-0b609422b/"
           target="_blank"
           rel="noopener noreferrer"
         >

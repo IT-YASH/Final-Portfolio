@@ -200,6 +200,31 @@
   background: white;
   animation: meteor-fall linear infinite;
 }
+.home-star-icon {
+  top: 30%;
+  left: 30%;
+  animation: move 5s linear infinite;
+}
+
+.home-rocket-icon {
+  bottom: -85%;
+  right: 85%;
+  animation: move 10s linear infinite;
+}
+
+.home-plus-icon {
+  top: 90%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  animation: rotate 5s linear infinite;
+}
+
+.home-background-icon {
+  position: absolute;
+  color: #5c526e;
+  font-size: 5rem;
+  z-index: 0;
+}
 
 @keyframes meteor-fall {
   0% {
@@ -348,7 +373,7 @@
   }
 
   .rightsection {
-    width: 45%; 
+    width: 45%;
     padding-left: 5px;
   }
 
@@ -395,13 +420,38 @@
     width: 100%;
   }
 
-  .home_visitsitelink{
+  .home_visitsitelink {
     width: auto;
     /* height: 25px; */
   }
 
-  .home_visitsitelink b{
+  .home_visitsitelink b {
     font-size: 4px;
+  }
+
+  .home-background-icon {
+    position: absolute;
+    color: #5c526e;
+    font-size: 2rem;
+    z-index: 0;
+  }
+  .home-star-icon {
+    top: 20%;
+    left: 35%;
+    animation: move 5s linear infinite;
+  }
+
+  .home-plus-icon {
+    top: 58%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    animation: rotate 5s linear infinite;
+  }
+
+  .home-rocket-icon {
+    bottom: -16%;
+    right: 83%;
+    animation: move 10s linear infinite;
   }
 
   .card {
