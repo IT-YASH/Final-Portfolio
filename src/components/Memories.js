@@ -3,11 +3,11 @@ import ReactPlayer from "react-player";
 import "../Css/Memories.css";
 import T20wc from "../video/T20wc.mp4";
 import T20wc1 from "../video/T20wc1.mp4";
-import CollegeFriendsPhoto from "../images/friendsclg.jpg"; 
+import CollegeFriendsPhoto from "../images/friendsclg.jpg";
 import OldFriendsPhoto from "../images/friendsold.jpeg";
 import TravelPhoto1 from "../images/me1.jpeg";
-import TravelPhoto2 from "../images/me2.jpeg"; 
-import Teamindia from "../images/teamindia.png"
+import TravelPhoto2 from "../images/me2.jpeg";
+import Teamindia from "../images/teamindia.png";
 
 const MemoriesAndFriends = () => {
   return (
@@ -51,7 +51,15 @@ const MemoriesAndFriends = () => {
         <div className="friends-content-container">
           <div className="friends-text-container">
             <p>
-              "Friendship isn't about whom you have known the longest... It's about who came, and never left your side."
+              "If you know Team India just won the T20 World Cup recently, then
+              you understand the sheer joy and pride that swept through the
+              nation. That night felt like a mini Diwali, with fireworks
+              lighting up the sky and celebrations erupting in every corner.
+              Everyone's eyes were filled with tears of joy and happiness, as
+              the triumph brought together millions of hearts, united in their
+              love for cricket and their country. The victory was not just a
+              sporting achievement but a moment of collective euphoria and
+              national pride."
             </p>
           </div>
           <div className="friends-photo-container">
@@ -75,21 +83,32 @@ const MemoriesAndFriends = () => {
         <div className="friends-content-container">
           <div className="friends-text-container">
             <p>
-              "Friendship isn't about whom you have known the longest... It's about who came, and never left your side."
+              "College friends: the ones who laughed with us, cried with us, and
+              made every moment unforgettable."
             </p>
           </div>
           <div className="friends-photo-container">
-            <img src={CollegeFriendsPhoto} alt="College Friends" className="friend-photo" />
+            <img
+              src={CollegeFriendsPhoto}
+              alt="College Friends"
+              className="friend-photo"
+            />
           </div>
         </div>
         {/* Old Friends */}
         <div className="friends-content-container">
           <div className="friends-photo-container">
-            <img src={OldFriendsPhoto} alt="Old Friends" className="friend-photo" />
+            <img
+              src={OldFriendsPhoto}
+              alt="Old Friends"
+              className="friend-photo"
+            />
           </div>
           <div className="friends-text-container">
             <p>
-              "Good friends are like stars. You don't always see them, but you know they're always there."
+              "We are three friends known as Rohit, Kohli, and Dhoni, and we
+              also call ourselves the three Musketeers: one for all, all for
+              one."
             </p>
           </div>
         </div>
@@ -104,7 +123,8 @@ const MemoriesAndFriends = () => {
         <div className="travel-content-container">
           <div className="travel-text-container">
             <p>
-              "Last travel to beautiful destinations, capturing unforgettable moments."
+              "A visit to the Statue of Unity under a cloudy sky, with light
+              rain adding a touch of magic to our adventure."
             </p>
           </div>
           <div className="travel-photo-container">
