@@ -10,7 +10,7 @@ import {
   FaEnvelope,
   FaAward,
   FaBars,
-  FaTimes
+  FaTimes,
 } from "react-icons/fa";
 
 function Navbar() {
@@ -119,10 +119,14 @@ function Navbar() {
               </NavLink>
               <ul className="dropdown-menu">
                 <li>
-                  <NavLink to="/achievements" onClick={closeSidebar}>Achievements →</NavLink>
+                  <NavLink to="/achievements" onClick={closeSidebar}>
+                    Achievements →
+                  </NavLink>
                 </li>
                 <li>
-                  <NavLink to="/memories" onClick={closeSidebar}>Memories →</NavLink>
+                  <NavLink to="/memories" onClick={closeSidebar}>
+                    Memories →
+                  </NavLink>
                 </li>
               </ul>
             </li>

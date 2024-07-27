@@ -9,6 +9,7 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import StarryBackground from "./components/StarryBackground";
 import Achievements from "./components/Achievements"
+import Memories from "./components/Memories"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/experience" element={<Experience />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/achievements" element={<Achievements />} />
+        <Route path="/memories" element={<Memories />} />
       </Routes>
       <Footer />
     </Router>

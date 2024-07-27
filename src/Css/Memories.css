@@ -1,0 +1,152 @@
+.memories-friends-section {
+  position: relative;
+  width: 100%;
+  padding-top: 120px;
+  height: auto;
+  overflow: hidden;
+}
+
+.title, .friends-title {
+  text-align: center;
+  font-size: 3rem;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 3px;
+  margin-bottom: 20px;
+}
+
+.orange {
+  color: orange;
+}
+
+.green {
+  color: green;
+}
+
+.white {
+  color: white;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 80%;
+}
+
+.video-container {
+  position: relative;
+  width: 50%;
+  height: 500px; /* Adjust the height as needed */
+  padding-left: 20px;
+  overflow: hidden;
+}
+
+.video-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.top-video {
+  clip-path: polygon(115% 0, 0% 87%, 0 0);
+  z-index: 1;
+}
+
+.bottom-video {
+  clip-path: polygon(0 87%, 114% 0, 100% 100%);
+  z-index: 0;
+}
+
+.text-container {
+  width: 50%;
+  padding: 30px;
+  font-family: fantasy;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+  color: white;
+  text-align: center;
+}
+
+.friends-content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.friends-text-container, .friends-photo-container {
+  width: 60%;
+  padding: 20px;
+}
+
+.friends-photo-container {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+}
+
+.friend-photo {
+  width: 70%;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.friend-photo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(202, 190, 190, 0.795);
+}
+
+.friends-text-container {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  text-align: left;
+}
+
+.friends-title span {
+  display: inline-block;
+  font-family: 'Comic Sans MS', 'Comic Sans', 'cursive'; 
+  padding: 0 5px;
+  position: relative;
+}
+
+.friends-title .f {
+  transform: rotate(-5deg);
+  color: #FF6347; /* Tomato */
+}
+
+.friends-title .r1 {
+  transform: rotate(5deg);
+  color: #4682B4; /* SteelBlue */
+}
+
+.friends-title .i {
+  transform: rotate(-3deg);
+  color: #32CD32; /* LimeGreen */
+}
+
+.friends-title .e {
+  transform: rotate(3deg);
+  color: #FFD700; /* Gold */
+}
+
+.friends-title .n {
+  transform: rotate(-2deg);
+  color: #FF69B4; /* HotPink */
+}
+
+.friends-title .d {
+  transform: rotate(2deg);
+  color: #1E90FF; /* DodgerBlue */
+}
+
+.friends-title .s {
+  transform: rotate(-1deg);
+  color: #FF4500; /* OrangeRed */
+}
