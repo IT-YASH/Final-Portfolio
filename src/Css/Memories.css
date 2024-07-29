@@ -6,7 +6,9 @@
   overflow: hidden;
 }
 
-.title, .friends-title, .travel-title {
+.title,
+.friends-title,
+.travel-title {
   text-align: center;
   font-size: 3rem;
   text-decoration: underline;
@@ -17,13 +19,16 @@
 
 .orange {
   color: orange;
+  font-size: 3.5rem;
 }
 
 .green {
+  font-size: 3.5rem;
   color: green;
 }
 
 .white {
+  font-size: 3.5rem;
   color: white;
 }
 
@@ -39,7 +44,7 @@
 .video-container {
   position: relative;
   width: 50%;
-  height: 500px; 
+  height: 500px;
   padding-left: 20px;
   overflow: hidden;
 }
@@ -53,7 +58,7 @@
 
 .top-video {
   clip-path: polygon(115% 0, 0% 87%, 0 0);
-  z-index: 1;
+  z-index: 0;
 }
 
 .bottom-video {
@@ -66,26 +71,30 @@
   padding: 30px;
   font-family: fantasy;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 3.5rem;
-  color: white;
   text-align: center;
 }
 
-.friends-content-container {
+.friends-content-container,
+.india-content-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
 }
 
-.friends-text-container, .friends-photo-container {
+.friends-text-container,
+.india-text-container,
+.friends-photo-container,
+.india-photo-container {
   width: 60%;
   padding: 20px;
 }
 
-.friends-photo-container {
+.friends-photo-container,
+.india-photo-container {
   display: flex;
   width: 40%;
   justify-content: center;
@@ -103,52 +112,64 @@
 }
 
 .friends-text-container {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 1.5rem;
+  font-family: cursive;
+  font-size: 2rem;
   color: white;
   text-align: left;
 }
 
+.india-text-container {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.4rem;
+  color: white;
+}
+
 .friends-title span {
   display: inline-block;
-  font-family: 'Comic Sans MS', 'Comic Sans', 'cursive'; 
+  font-family:'Times New Roman', Times, serif;
   padding: 0 5px;
   position: relative;
 }
 
 .friends-title .f {
   transform: rotate(-5deg);
-  color: #FF6347; 
+  color: #ff6347;
 }
 
 .friends-title .r {
   transform: rotate(5deg);
-  color: #4682B4; 
+  color: #4682b4;
 }
 
 .friends-title .i {
   transform: rotate(-3deg);
-  color: #32CD32; 
+  color: #32cd32;
 }
 
 .friends-title .e {
   transform: rotate(3deg);
-  color: #FFD700; 
+  color: #ffd700;
 }
 
 .friends-title .n {
   transform: rotate(-2deg);
-  color: #FF69B4;
+  color: #ff69b4;
 }
 
 .friends-title .d {
   transform: rotate(2deg);
-  color: #1E90FF; 
+  color: #1e90ff;
 }
 
 .friends-title .s {
   transform: rotate(-1deg);
-  color: #FF4500; 
+  color: #ff4500;
+}
+
+.travel-details {
+  font-size: 1.2rem;
+  color: #ddd;
+  margin-top: 10px;
 }
 
 .travel-content-container {
@@ -158,7 +179,8 @@
   margin-bottom: 50px;
 }
 
-.travel-text-container, .travel-photo-container {
+.travel-text-container,
+.travel-photo-container {
   width: 60%;
   padding: 20px;
 }
@@ -182,8 +204,153 @@
 }
 
 .travel-text-container {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:'Times New Roman', Times, serif;
   font-size: 1.5rem;
   color: white;
   text-align: left;
 }
+
+.credit-indian {
+  font-size: 1rem;
+  margin-top: 5px;
+  text-align: center;
+  color: white;
+}
+
+span a {
+  color: skyblue;
+  text-decoration: none;
+}
+
+span a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 375px) {
+  .orange,
+  .green,
+  .white {
+    font-size: 2.5rem;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .content-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .top-video {
+    clip-path: polygon(115% 0, 0% 115%, 0 0);
+    z-index: 0;
+  }
+
+  .bottom-video {
+    clip-path: polygon(0 93%, 114% 0, 100% 100%);
+    z-index: 0;
+  }
+
+  .video-container {
+    width: 100%;
+    height: 250px;
+    padding-left: 0;
+  }
+
+  .text-container,
+  .friends-text-container,
+  .india-text-container,
+  .friends-photo-container,
+  .india-photo-container,
+  .travel-text-container,
+  .travel-photo-container {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.1rem;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .friend-photo,
+  .travel-photo {
+    width: 100%;
+  }
+
+  .travel-photo-container {
+    flex-direction: column;
+  }
+
+  .friends-text-container {
+    font-size: 1.5rem;
+  }
+
+  .india-text-container {
+    font-size: 1.2rem;
+  }
+
+  .travel-text-container {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .orange,
+  .green,
+  .white {
+    font-size: 3rem;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .content-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .top-video {
+    clip-path: polygon(115% 0, 0% 115%, 0 0);
+    z-index: 0;
+  }
+
+  .bottom-video {
+    clip-path: polygon(0 93%, 114% 0, 100% 100%);
+    z-index: 0;
+  }
+
+  .video-container {
+    width: 100%;
+    height: 350px;
+    padding-left: 0;
+  }
+
+  .text-container,
+  .friends-text-container,
+  .india-text-container,
+  .friends-photo-container,
+  .india-photo-container,
+  .travel-text-container,
+  .travel-photo-container {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .friend-photo,
+  .travel-photo {
+    width: 100%;
+  }
+
+  .travel-photo-container {
+    flex-direction: column;
+  }
+
+  .friends-text-container {
+    font-size: 1.7rem;
+  }
+
+  .india-text-container {
+    font-size: 1.4rem;
+  }
+
+  .travel-text-container {
+    font-size: 1.5rem;
+  }
+}
+

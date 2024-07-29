@@ -101,6 +101,12 @@
     }
 }
 
+@media (max-width: 550px) {
+    .contact-section{
+        width: auto;
+        background-color: transparent;
+    }
+}
 @media (max-width: 375px) {
     .contact-section{
         width: auto;

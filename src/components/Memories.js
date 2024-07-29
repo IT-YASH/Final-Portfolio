@@ -7,12 +7,13 @@ import CollegeFriendsPhoto from "../images/friendsclg.jpg";
 import OldFriendsPhoto from "../images/friendsold.jpeg";
 import TravelPhoto1 from "../images/me1.jpeg";
 import TravelPhoto2 from "../images/me2.jpeg";
+import TravelPhoto3 from "../images/flower.jpg"
 import Teamindia from "../images/teamindia.png";
 
 const MemoriesAndFriends = () => {
   return (
     <div className="memories-friends-section">
-      {/* Memories Section */}
+   
       <div className="memories-section">
         <h1 className="title">
           <span className="orange">Moments</span>
@@ -43,13 +44,24 @@ const MemoriesAndFriends = () => {
           <div className="text-container">
             <p>
               <span className="orange">"Thanks for</span>
-              <span className="white"> bringing cup</span>
-              <span className="green"> back to home"</span>
+              <span className="white"> bringing the cup</span>
+              <span className="green"> back home"</span>
             </p>
+            <span className="credit-indian">
+              Credits: Video from{" "}
+              <a
+                href="https://www.instagram.com/indiancricketteam/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Indian Cricket Team
+              </a>{" "}
+              on Instagram.
+            </span>
           </div>
         </div>
-        <div className="friends-content-container">
-          <div className="friends-text-container">
+        <div className="india-content-container">
+          <div className="india-text-container">
             <p>
               "If you know Team India just won the T20 World Cup recently, then
               you understand the sheer joy and pride that swept through the
@@ -60,15 +72,26 @@ const MemoriesAndFriends = () => {
               love for cricket and their country. The victory was not just a
               sporting achievement but a moment of collective euphoria and
               national pride."
+              <br />
+              <span className="credit-indian">
+                Credits: Image from{" "}
+                <a
+                  href="https://www.instagram.com/indiancricketteam/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Indian Cricket Team
+                </a>{" "}
+                on Instagram.
+              </span>
             </p>
           </div>
-          <div className="friends-photo-container">
+          <div className="india-photo-container">
             <img src={Teamindia} alt="teamindia" className="friend-photo" />
           </div>
         </div>
       </div>
 
-      {/* Friends Section */}
       <div className="friends-section">
         <h1 className="friends-title">
           <span className="f">F</span>
@@ -79,7 +102,6 @@ const MemoriesAndFriends = () => {
           <span className="d">D</span>
           <span className="s">S</span>
         </h1>
-        {/* College Friends */}
         <div className="friends-content-container">
           <div className="friends-text-container">
             <p>
@@ -95,7 +117,7 @@ const MemoriesAndFriends = () => {
             />
           </div>
         </div>
-        {/* Old Friends */}
+
         <div className="friends-content-container">
           <div className="friends-photo-container">
             <img
@@ -114,22 +136,53 @@ const MemoriesAndFriends = () => {
         </div>
       </div>
 
-      {/* Travel Section */}
       <div className="travel-section">
         <h1 className="travel-title">
           <span className="orange">Travel</span>
           <span className="white"> Memories</span>
         </h1>
+
         <div className="travel-content-container">
           <div className="travel-text-container">
             <p>
               "A visit to the Statue of Unity under a cloudy sky, with light
               rain adding a touch of magic to our adventure."
             </p>
+            <p className="travel-details">
+              <strong>Destination:</strong> Statue of Unity, Gujarat, India
+              <br />
+              <strong>Date:</strong> June 30, 2024
+            </p>
           </div>
           <div className="travel-photo-container">
-            <img src={TravelPhoto1} alt="photo1" className="travel-photo" />
-            <img src={TravelPhoto2} alt="photo2" className="travel-photo" />
+            <img
+              src={TravelPhoto1}
+              alt="Statue of Unity"
+              className="travel-photo"
+            />
+            <img src={TravelPhoto2} alt="Cloudy Sky" className="travel-photo" />
+          </div>
+        </div>
+
+        <div className="travel-content-container">
+          <div className="travel-photo-container">
+            <img
+              src={TravelPhoto3}
+              alt="Beautiful Flower"
+              className="travel-photo"
+            />
+          </div>
+          <div className="travel-text-container">
+            <p>
+              "A beautiful flower captured at the Narmada River in Bharuch
+              during a visit with old school friends."
+            </p>
+            <p className="travel-details">
+              <strong>Destination:</strong> Bharuch, Gujarat,
+              India
+              <br />
+              <strong>Date:</strong> July 7, 2024
+            </p>
           </div>
         </div>
       </div>

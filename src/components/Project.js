@@ -27,6 +27,14 @@ const projects = [
     link: "https://insta",
     github: "",
   },
+  {
+    id: 4,
+    name: "Universal Translator",
+    image: require("../images/chat.png"),
+    info: "Developed the Universal Translator application using Android Studio and Java, with Google ML Kit integrated for real-time translation of ongoing conversations. This innovative application provides instant translations, enhancing communication across different languages without the need for manual intervention. The automated speak-and-response mechanism ensures seamless interaction, setting it apart from other translation tools by delivering immediate and efficient language support.",
+    link: "https://insta",
+    github: "",
+  },
 ];
 
 function Project() {
