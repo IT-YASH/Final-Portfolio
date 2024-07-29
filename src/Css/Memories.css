@@ -119,14 +119,14 @@
 }
 
 .india-text-container {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.4rem;
   color: white;
 }
 
 .friends-title span {
   display: inline-block;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   padding: 0 5px;
   position: relative;
 }
@@ -204,7 +204,7 @@
 }
 
 .travel-text-container {
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.5rem;
   color: white;
   text-align: left;
@@ -224,70 +224,6 @@ span a {
 
 span a:hover {
   text-decoration: underline;
-}
-
-@media (max-width: 375px) {
-  .orange,
-  .green,
-  .white {
-    font-size: 2.5rem;
-    font-family: "Times New Roman", Times, serif;
-  }
-
-  .content-container {
-    flex-direction: column;
-    height: auto;
-  }
-
-  .top-video {
-    clip-path: polygon(115% 0, 0% 115%, 0 0);
-    z-index: 0;
-  }
-
-  .bottom-video {
-    clip-path: polygon(0 93%, 114% 0, 100% 100%);
-    z-index: 0;
-  }
-
-  .video-container {
-    width: 100%;
-    height: 250px;
-    padding-left: 0;
-  }
-
-  .text-container,
-  .friends-text-container,
-  .india-text-container,
-  .friends-photo-container,
-  .india-photo-container,
-  .travel-text-container,
-  .travel-photo-container {
-    width: 100%;
-    padding: 10px;
-    font-size: 0.1rem;
-    font-family: "Times New Roman", Times, serif;
-  }
-
-  .friend-photo,
-  .travel-photo {
-    width: 100%;
-  }
-
-  .travel-photo-container {
-    flex-direction: column;
-  }
-
-  .friends-text-container {
-    font-size: 1.5rem;
-  }
-
-  .india-text-container {
-    font-size: 1.2rem;
-  }
-
-  .travel-text-container {
-    font-size: 1.3rem;
-  }
 }
 
 @media (max-width: 768px) {
@@ -354,3 +290,65 @@ span a:hover {
   }
 }
 
+@media (max-width: 375px) {
+  .orange,
+  .green,
+  .white {
+    font-size: 2.5rem;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .content-container {
+    flex-direction: column;
+  }
+
+  .top-video {
+    clip-path: polygon(111% 0, 0% 92%, 0 0);
+    z-index: 1;
+  }
+
+  .bottom-video {
+    clip-path: polygon(0 92%, 110% 0, 100% 100%);
+    z-index: 1;
+  }
+
+  .video-container {
+    width: 100%;
+    height: 250px;
+    padding-left: 0;
+  }
+
+  .text-container,
+  .friends-text-container,
+  .india-text-container,
+  .friends-photo-container,
+  .india-photo-container,
+  .travel-text-container,
+  .travel-photo-container {
+    width: 100%;
+    padding: 10px;
+    font-size: 0.1rem;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .friend-photo,
+  .travel-photo {
+    width: 100%;
+  }
+
+  .travel-photo-container {
+    flex-direction: column;
+  }
+
+  .friends-text-container {
+    font-size: 1.5rem;
+  }
+
+  .india-text-container {
+    font-size: 1.2rem;
+  }
+
+  .travel-text-container {
+    font-size: 1.3rem;
+  }
+}
