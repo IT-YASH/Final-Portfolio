@@ -7,13 +7,14 @@ import CollegeFriendsPhoto from "../images/friendsclg.jpg";
 import OldFriendsPhoto from "../images/friendsold.jpeg";
 import TravelPhoto1 from "../images/me1.jpeg";
 import TravelPhoto2 from "../images/me2.jpeg";
-import TravelPhoto3 from "../images/flower.jpg"
+import TravelPhoto3 from "../images/flower.jpg";
 import Teamindia from "../images/teamindia.png";
+import BlogPost1Image from "../images/blog.png";
+// import BlogPost2Image from "../images/blog.png";
 
 const MemoriesAndFriends = () => {
   return (
     <div className="memories-friends-section">
-   
       <div className="memories-section">
         <h1 className="title">
           <span className="orange">Moments</span>
@@ -23,22 +24,10 @@ const MemoriesAndFriends = () => {
         <div className="content-container">
           <div className="video-container">
             <div className="video-wrapper top-video">
-              <ReactPlayer
-                url={T20wc1}
-                playing
-                muted
-                width="100%"
-                height="100%"
-              />
+              <ReactPlayer url={T20wc1} playing muted width="100%" height="100%" />
             </div>
             <div className="video-wrapper bottom-video">
-              <ReactPlayer
-                url={T20wc}
-                playing
-                muted
-                width="100%"
-                height="100%"
-              />
+              <ReactPlayer url={T20wc} playing muted width="100%" height="100%" />
             </div>
           </div>
           <div className="text-container">
@@ -178,11 +167,32 @@ const MemoriesAndFriends = () => {
               during a visit with old school friends."
             </p>
             <p className="travel-details">
-              <strong>Destination:</strong> Bharuch, Gujarat,
-              India
+              <strong>Destination:</strong> Bharuch, Gujarat, India
               <br />
               <strong>Date:</strong> July 7, 2024
             </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Blog Section */}
+      <div className="blog-section">
+        <h1 className="blog-title">
+          <span className="orange">My</span>
+          <span className="white"> Blog</span>
+        </h1>
+        <div className="blog-content-container">
+          <div className="blog-post">
+            <div className="blog-post-image" style={{ backgroundImage: `url(${BlogPost1Image})` }}></div>
+            <div className="blog-post-content">
+              <h2 className="blog-post-title">Last Month Experience</h2>
+              <p className="blog-post-excerpt">
+                Blog website yet to be deoployed so wait...
+              </p>
+              <a href="/blog/post-1" className="read-more">
+                Read More
+              </a>
+            </div>
           </div>
         </div>
       </div>

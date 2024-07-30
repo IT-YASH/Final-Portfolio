@@ -9,7 +9,7 @@ const projects = [
     image: require("../images/Wecare.jpeg"),
     info: "Developed a hospital management website facilitating bed booking, medicine ordering, and bed availability checks across multiple hospitals. Utilized ASP.NET Web Forms with .aspx pages and master pages for consistent design. Implemented frontend styling with Bootstrap, and managed backend functionality using C#.",
     link: "http://GIt",
-    github: "",
+    github: "https://github.com/IT-YASH/Wecare",
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const projects = [
   },
   {
     id: 4,
-    name: "Universal Translator",
+    name: "Chat Application",
     image: require("../images/chat.png"),
     info: "I’m thrilled to share my latest project a dynamic and interactive chat application that allows real-time messaging between users using WebSockets. For this project, I utilized HTML, CSS, JavaScript, Node.js, Express, and Socket.io. This application showcases my ability to create seamless, real-time communication features, demonstrating my proficiency in both front-end and back-end development.",
     link: "https://insta",
