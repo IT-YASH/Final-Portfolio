@@ -5,11 +5,11 @@ import Footer from "./components/Footer";
 import Home from "./components/Home";
 import About from "./components/About";
 import Project from "./components/Project";
-import Experience from "./components/experience";
+import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import StarryBackground from "./components/StarryBackground";
-import Achievements from "./components/Achievements"
-import Memories from "./components/Memories"
+import Achievements from "./components/Achievements";
+import Memories from "./components/Memories";
 
 function App() {
   return (
