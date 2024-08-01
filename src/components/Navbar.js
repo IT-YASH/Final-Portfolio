@@ -52,11 +52,21 @@ function Navbar() {
   };
 
   const handleMouseEnter = () => {
-    setShowDropdown(true);
+    if (window.innerWidth > 768) {
+      setShowDropdown(true);
+    }
   };
 
   const handleMouseLeave = () => {
-    setShowDropdown(false);
+    if (window.innerWidth > 768) {
+      setShowDropdown(false);
+    }
+  };
+
+  const handleDropdownClick = () => {
+    if (window.innerWidth <= 768) {
+      setShowDropdown(!showDropdown);
+    }
   };
 
   return (
@@ -121,6 +131,7 @@ function Navbar() {
               className="dropdown"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
+              onClick={handleDropdownClick}
             >
               <span>
                 <FaAward className="nav-icon" />

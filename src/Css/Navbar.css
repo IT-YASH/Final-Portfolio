@@ -134,7 +134,7 @@ nav ul li a.active::before {
 
 .dropdown-menu li a {
   padding: 10px 20px;
-  width: 73%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -221,20 +221,11 @@ body.dark .toggle-btn .moon-icon {
 }
 
 @media screen and (max-width: 768px) {
-  nav {
-    justify-content: space-between;
-    padding: 0 20px;
-  }
-
-  nav .left {
-    width: 20%;
-  }
-
   nav .right {
     position: fixed;
     top: 0;
     right: -100%;
-    height: max-content;
+    height: 100vh;
     background-color: black;
     color: #fff;
     width: 70%;
@@ -263,10 +254,14 @@ body.dark .toggle-btn .moon-icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 30px;
   }
 
-  .toggle-btn {
-    margin-top: 10px;
+  .dropdown-menu {
+    position: static;
+    transform: none;
+    width: 100%;
+    padding: 0;
+    border-radius: 0;
+    display: block;
   }
 }
