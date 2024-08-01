@@ -17,6 +17,7 @@ function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -48,6 +49,14 @@ function Navbar() {
 
   const closeSidebar = () => {
     setSidebarOpen(false);
+  };
+
+  const handleMouseEnter = () => {
+    setShowDropdown(true);
+  };
+
+  const handleMouseLeave = () => {
+    setShowDropdown(false);
   };
 
   return (
@@ -108,27 +117,29 @@ function Navbar() {
                 Connect with Me
               </NavLink>
             </li>
-            <li className="dropdown">
-              <NavLink
-                to="/Home"
-                className={({ isActive }) => (isActive ? "active" : "")}
-                onClick={closeSidebar}
-              >
+            <li
+              className="dropdown"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <span>
                 <FaAward className="nav-icon" />
                 Others
-              </NavLink>
-              <ul className="dropdown-menu">
-                <li>
-                  <NavLink to="/achievements" onClick={closeSidebar}>
-                    Achievements →
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/memories" onClick={closeSidebar}>
-                    Memories →
-                  </NavLink>
-                </li>
-              </ul>
+              </span>
+              {showDropdown && (
+                <ul className="dropdown-menu">
+                  <li>
+                    <NavLink to="/achievements" onClick={closeSidebar}>
+                      Achievements →
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink to="/memories" onClick={closeSidebar}>
+                      Memories →
+                    </NavLink>
+                  </li>
+                </ul>
+              )}
             </li>
           </ul>
           <button className="toggle-btn" onClick={toggleTheme}>
