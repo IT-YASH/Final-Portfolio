@@ -196,7 +196,7 @@
   width: 2px;
   z-index: -1;
   height: 90px;
-  background: white;
+  background: rgba(172, 172, 27, 0.952);
   animation: meteor-fall linear infinite;
 }
 .home-star-icon {
