@@ -78,7 +78,6 @@ nav ul li {
   list-style: none;
   margin: 0px 22px;
   position: relative;
-  display: flex;
 }
 
 nav ul li a {
@@ -114,6 +113,10 @@ nav ul li a.active::before {
 
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+
+.dropdown {
+  position: relative;
 }
 
 .dropdown-menu {
@@ -221,11 +224,20 @@ body.dark .toggle-btn .moon-icon {
 }
 
 @media screen and (max-width: 768px) {
+  nav {
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  nav .left {
+    width: 20%;
+  }
+
   nav .right {
     position: fixed;
     top: 0;
     right: -100%;
-    height: 100vh;
+    height: max-content;
     background-color: black;
     color: #fff;
     width: 70%;
@@ -254,6 +266,11 @@ body.dark .toggle-btn .moon-icon {
     display: flex;
     align-items: center;
     justify-content: center;
+    top: 30px;
+  }
+
+  .toggle-btn {
+    margin-top: 10px;
   }
 
   .dropdown-menu {
@@ -263,5 +280,10 @@ body.dark .toggle-btn .moon-icon {
     padding: 0;
     border-radius: 0;
     display: block;
+  }
+
+  .dropdown-menu li a {
+    padding: 10px;
+    width: 88%;
   }
 }
