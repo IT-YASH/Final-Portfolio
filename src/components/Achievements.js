@@ -44,7 +44,6 @@ const Achievements = () => {
             </div>
           </div>
           <div className="background-icon star-icon"><FaStar /></div>
-          {/* <div className="background-icon rocket-icon"><FaRocket /></div> */}
           <div className="background-icon plus-icon"><FaPlus /></div>
         </div>
       </div>
