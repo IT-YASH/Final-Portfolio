@@ -15,7 +15,7 @@ const Experience = () => {
     {
       company: "Bharat intern",
       position: "Full stack Development Intern",
-      duration: "1 July 2024 - 1 August 2024",
+      duration: "10 February 2024 - 10 March 2024",
       description: "I successfully completed the Virtual Internship Program at Bharat Intern in Full Stack Web Development, actively participating from February 10, 2024, to March 10, 2024. During this period, I gained comprehensive skills in both front-end and back-end development, working on projects that required integrating various web technologies. This internship provided a holistic view of full stack development and strengthened my capabilities as a versatile web developer.",
       src: "https://bharatintern.live/static/logo-d7abe237292b840869fa4f33f0e74976.png",
       completion: "https://drive.google.com/file/d/1frDYaW6J2SJftRzVkhBOhU8tU6k3Ht44/view?usp=drive_link",

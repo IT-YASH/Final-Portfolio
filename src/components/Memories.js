@@ -10,6 +10,8 @@ import TravelPhoto2 from "../images/me2.jpeg";
 import TravelPhoto3 from "../images/flower.jpg";
 import Teamindia from "../images/teamindia.png";
 import BlogPost1Image from "../images/blog.png";
+import TravelPhoto4 from "../images/IITG.jpg";
+import TravelPhoto5 from "../images/IITG1.jpg";
 // import BlogPost2Image from "../images/blog.png";
 
 const MemoriesAndFriends = () => {
@@ -132,7 +134,7 @@ const MemoriesAndFriends = () => {
         </h1>
 
         <div className="travel-content-container">
-          <div className="travel-text-container">
+        <div className="travel-text-container">
             <p>
               "A visit to the Statue of Unity under a cloudy sky, with light
               rain adding a touch of magic to our adventure."
@@ -153,6 +155,7 @@ const MemoriesAndFriends = () => {
           </div>
         </div>
 
+
         <div className="travel-content-container">
           <div className="travel-photo-container">
             <img
@@ -171,6 +174,26 @@ const MemoriesAndFriends = () => {
               <br />
               <strong>Date:</strong> July 7, 2024
             </p>
+          </div>
+        </div>
+        <div className="travel-content-container">
+          <div className="travel-text-container">
+            <p>
+              "Our Team(Kappa) has secure 1st rank at FloodAIHackathon."
+            </p>
+            <p className="travel-details">
+              <strong>Destination:</strong> IITGandhinagar, Gandhinagar, Gujarat, India
+              <br />
+              <strong>Date:</strong> August 25, 2024
+            </p>
+          </div>
+          <div className="travel-photo-container">
+            <img
+              src={TravelPhoto4}
+              alt="Statue of Unity"
+              className="travel-photo"
+            />
+            <img src={TravelPhoto5} alt="Cloudy Sky" className="travel-photo" />
           </div>
         </div>
       </div>

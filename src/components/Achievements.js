@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub, FaLinkedin, FaStar, FaRocket, FaPlus } from 'react-icons/fa';
 import '../Css/Achievements.css';
 import Challenge from "../images/challenge.png"
+import Winner from "../images/winner.jpg"
 
 const Achievements = () => {
   return (
@@ -39,6 +40,32 @@ const Achievements = () => {
                 rel="noopener noreferrer"
               >
                 <FaGithub className="social-icon" /> GitHub
+              </a>
+            </div>
+          </div>
+          <div className="background-icon star-icon"><FaStar /></div>
+          {/* <div className="background-icon rocket-icon"><FaRocket /></div> */}
+          <div className="background-icon plus-icon"><FaPlus /></div>
+        </div>
+      </div>
+      <div className="achievement-content">
+        <div className="achievement-item">
+          <div className="achievement-photo">
+            <img src={Winner} alt="Achievement" />
+          </div>
+          <div className="achievement-details">
+            <h3 className="achievement-title">#FloodAIHackathon</h3>
+            <p className="achievement-description">
+            I’m excited to announce that Team Kappa has won 1st place at the AIFlood Hackathon with our innovative AI-driven solution for urban flood prediction and management. Out of 160 applications from across India, 60 were selected, and 11 teams participated, including top scholars from prestigious institutions like IITs and NITs. Our winning application combines real-time monitoring, flood risk prediction, impact analysis, and tailored mitigation strategies to address the growing threat of urban flooding. Although designed for Mumbai, it’s scalable to any city, offering a forward-thinking approach to a pressing issue.
+            </p>
+            <div className="social-buttons">
+              <a
+                href="https://www.linkedin.com/posts/yashp2003_urbanflooding-ai-innovation-activity-7234458756669988864-2YNZ?utm_source=share&utm_medium=member_desktop"
+                className="socialmedia-button"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin className="social-icon" /> LinkedIn
               </a>
             </div>
           </div>
