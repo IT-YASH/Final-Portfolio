@@ -125,6 +125,23 @@ const MemoriesAndFriends = () => {
             </p>
           </div>
         </div>
+        
+        <div className="friends-content-container">
+          <div className="friends-text-container">
+            <p>
+              "We are three friends known as Rohit, Kohli, and Dhoni, and we
+              also call ourselves the three Musketeers: one for all, all for
+              one."
+            </p>
+          </div>
+          <div className="friends-photo-container">
+            <img
+              src={OldFriendsPhoto}
+              alt="Old Friends"
+              className="friend-photo"
+            />
+          </div>
+        </div>
       </div>
 
       <div className="travel-section">
