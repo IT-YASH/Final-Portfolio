@@ -3,14 +3,14 @@ import ReactPlayer from "react-player";
 import "../Css/Memories.css";
 import T20wc from "../video/T20wc.mp4";
 import T20wc1 from "../video/T20wc1.mp4";
-import CollegeFriendsPhoto from "../images/friendsclg.jpg";
+import BatchIT from "../images/batch.JPG";
 import OldFriendsPhoto from "../images/friendsold.jpeg";
 import TravelPhoto1 from "../images/me1.jpeg";
 import TravelPhoto2 from "../images/me2.jpeg";
 import TravelPhoto3 from "../images/flower.jpg";
 import Teamindia from "../images/teamindia.png";
-import BlogPost1Image from "../images/blog.png";
-import TravelPhoto4 from "../images/IITG.jpg";
+import Group from "../images/group.jpg";
+// import TravelPhoto4 from "../images/IITG.jpg";
 import TravelPhoto5 from "../images/IITG1.jpg";
 // import BlogPost2Image from "../images/blog.png";
 
@@ -26,10 +26,22 @@ const MemoriesAndFriends = () => {
         <div className="content-container">
           <div className="video-container">
             <div className="video-wrapper top-video">
-              <ReactPlayer url={T20wc1} playing muted width="100%" height="100%" />
+              <ReactPlayer
+                url={T20wc1}
+                playing
+                muted
+                width="100%"
+                height="100%"
+              />
             </div>
             <div className="video-wrapper bottom-video">
-              <ReactPlayer url={T20wc} playing muted width="100%" height="100%" />
+              <ReactPlayer
+                url={T20wc}
+                playing
+                muted
+                width="100%"
+                height="100%"
+              />
             </div>
           </div>
           <div className="text-container">
@@ -93,21 +105,6 @@ const MemoriesAndFriends = () => {
           <span className="d">D</span>
           <span className="s">S</span>
         </h1>
-        <div className="friends-content-container">
-          <div className="friends-text-container">
-            <p>
-              "College friends: the ones who laughed with us, cried with us, and
-              made every moment unforgettable."
-            </p>
-          </div>
-          <div className="friends-photo-container">
-            <img
-              src={CollegeFriendsPhoto}
-              alt="College Friends"
-              className="friend-photo"
-            />
-          </div>
-        </div>
 
         <div className="friends-content-container">
           <div className="friends-photo-container">
@@ -119,27 +116,35 @@ const MemoriesAndFriends = () => {
           </div>
           <div className="friends-text-container">
             <p>
-              "We are three friends known as Rohit, Kohli, and Dhoni, and we
-              also call ourselves the three Musketeers: one for all, all for
-              one."
+              "We are three friends known as Rohit, Kohli, Dhoni and we also
+              call ourselves the three Musketeers: one for all, all for one."
             </p>
           </div>
         </div>
-        
+
         <div className="friends-content-container">
           <div className="friends-text-container">
             <p>
-              "We are three friends known as Rohit, Kohli, and Dhoni, and we
-              also call ourselves the three Musketeers: one for all, all for
-              one."
+              "College friends: the ones who laughed with us, cried with us, and
+              made every moment unforgettable."
             </p>
           </div>
           <div className="friends-photo-container">
-            <img
-              src={OldFriendsPhoto}
-              alt="Old Friends"
-              className="friend-photo"
-            />
+            <img src={Group} alt="Old Friends" className="friend-photo" />
+          </div>
+        </div>
+
+        <div className="friends-content-container">
+          <div className="friends-photo-container">
+            <img src={BatchIT} alt="Old Friends" className="friend-photo" />
+          </div>
+          <div className="friends-text-container">
+            <p>
+              "BE IT Batch of 2021-2025  Four years of learning, growth, and
+              unforgettable memories. Together, we've navigated challenges,
+              celebrated milestones, and created bonds that will last beyond
+              these walls."
+            </p>
           </div>
         </div>
       </div>
@@ -151,7 +156,7 @@ const MemoriesAndFriends = () => {
         </h1>
 
         <div className="travel-content-container">
-        <div className="travel-text-container">
+          <div className="travel-text-container">
             <p>
               "A visit to the Statue of Unity under a cloudy sky, with light
               rain adding a touch of magic to our adventure."
@@ -171,7 +176,6 @@ const MemoriesAndFriends = () => {
             <img src={TravelPhoto2} alt="Cloudy Sky" className="travel-photo" />
           </div>
         </div>
-
 
         <div className="travel-content-container">
           <div className="travel-photo-container">
@@ -195,44 +199,20 @@ const MemoriesAndFriends = () => {
         </div>
         <div className="travel-content-container">
           <div className="travel-text-container">
-            <p>
-              "Our Team(Kappa) has secure 1st rank at FloodAIHackathon."
-            </p>
+            <p>"Visited IITGN For Hackathon."</p>
             <p className="travel-details">
-              <strong>Destination:</strong> IITGandhinagar, Gandhinagar, Gujarat, India
+              <strong>Destination:</strong> IITGandhinagar, Gandhinagar,
+              Gujarat, India
               <br />
               <strong>Date:</strong> August 25, 2024
             </p>
           </div>
           <div className="travel-photo-container">
             <img
-              src={TravelPhoto4}
-              alt="Statue of Unity"
-              className="travel-photo"
+              src={TravelPhoto5}
+              alt="Cloudy Sky"
+              className="travel-photo-iit"
             />
-            <img src={TravelPhoto5} alt="Cloudy Sky" className="travel-photo" />
-          </div>
-        </div>
-      </div>
-
-      {/* Blog Section */}
-      <div className="blog-section">
-        <h1 className="blog-title">
-          <span className="orange">My</span>
-          <span className="white"> Blog</span>
-        </h1>
-        <div className="blog-content-container">
-          <div className="blog-post">
-            <div className="blog-post-image" style={{ backgroundImage: `url(${BlogPost1Image})` }}></div>
-            <div className="blog-post-content">
-              <h2 className="blog-post-title">Last Month Experience</h2>
-              <p className="blog-post-excerpt">
-                Blog website yet to be deoployed so wait...
-              </p>
-              <a href="/blog/post-1" className="read-more">
-                Read More
-              </a>
-            </div>
           </div>
         </div>
       </div>
