@@ -4,20 +4,19 @@ import "../Css/Memories.css";
 import T20wc from "../video/T20wc.mp4";
 import T20wc1 from "../video/T20wc1.mp4";
 import BatchIT from "../images/batch.JPG";
-import OldFriendsPhoto from "../images/friendsold.jpeg";
+import OldFriendsPhoto from "../images/IMG_6111.jpg";
 import TravelPhoto1 from "../images/me1.jpeg";
 import TravelPhoto2 from "../images/me2.jpeg";
 import TravelPhoto3 from "../images/flower.jpg";
+import TravelPhoto4 from "../images/yash-zandhanuman.JPG";
 import Teamindia from "../images/teamindia.png";
-import Group from "../images/group.jpg";
-// import TravelPhoto4 from "../images/IITG.jpg";
+import Group from "../images/friendsclg.jpg";
 import TravelPhoto5 from "../images/IITG1.jpg";
-// import BlogPost2Image from "../images/blog.png";
 
 const MemoriesAndFriends = () => {
   return (
     <div className="memories-friends-section">
-      <div className="memories-section">
+      {/* <div className="memories-section">
         <h1 className="title">
           <span className="orange">Moments</span>
           <span className="white"> of</span>
@@ -93,7 +92,7 @@ const MemoriesAndFriends = () => {
             <img src={Teamindia} alt="teamindia" className="friend-photo" />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="friends-section">
         <h1 className="friends-title">
@@ -168,11 +167,11 @@ const MemoriesAndFriends = () => {
             </p>
           </div>
           <div className="travel-photo-container">
-            <img
+            {/* <img
               src={TravelPhoto1}
               alt="Statue of Unity"
               className="travel-photo"
-            />
+            /> */}
             <img src={TravelPhoto2} alt="Cloudy Sky" className="travel-photo" />
           </div>
         </div>
@@ -213,6 +212,25 @@ const MemoriesAndFriends = () => {
               alt="Cloudy Sky"
               className="travel-photo-iit"
             />
+          </div>
+        </div>
+        <div className="travel-content-container">
+          <div className="travel-photo-container">
+            <img
+              src={TravelPhoto4}
+              alt="Beautiful Flower"
+              className="travel-photo"
+            />
+          </div>
+          <div className="travel-text-container">
+            <p>
+              "Visited Zand Hanuman with Friends"
+            </p>
+            <p className="travel-details">
+              <strong>Destination:</strong> Zand Hanuman, Gujarat, India
+              <br />
+              <strong>Date:</strong> December 12, 2024
+            </p>
           </div>
         </div>
       </div>
